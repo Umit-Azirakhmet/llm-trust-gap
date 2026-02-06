@@ -1,0 +1,33 @@
+#Model configurations for TogetherAI API
+models:
+  llama-3.1-8b:
+    id: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+    description: "Meta Llama 3.1 8B Instruct Turbo"
+    
+  llama-3.1-70b:
+    id: "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo"
+    description: "Meta Llama 3.1 70B Instruct Turbo"
+    
+  mistral-small:
+    id: "mistralai/Mistral-Small-24B-Instruct-2501"
+    description: "Mistral Small (24B) Instruct 25.01"
+    
+  gemma-3-4b:
+    id: "google/gemma-3n-E4B-it"
+    description: "Gemma 3N E4B Instruct"
+    
+  qwen-3-80b:
+    id: "Qwen/Qwen3-Next-80B-A3B-Instruct"
+    description: "Qwen3 Next 80B A3b Instruct"
+    
+  deepseek-v3.1:
+    id: "deepseek-ai/DeepSeek-V3.1"
+    description: "DeepSeek V3.1"
+
+#Default model parameters
+default_params:
+  temperature: 0.7
+  max_tokens: 20
+  logprobs: True
+  top_logprobs: 10
+

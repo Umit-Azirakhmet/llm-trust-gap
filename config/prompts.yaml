@@ -1,0 +1,26 @@
+#Prompt group configurations
+prompt_groups:
+  control:
+    name: "Control (Baseline)"
+    description: "Baseline vanilla prompt"
+    module: "prompts.control"
+    function: "get_control_prompt"
+    
+  evidence_first:
+    name: "Evidence-First"
+    description: "Requires listing key facts before answering"
+    module: "prompts.evidence_first"
+    function: "get_evidence_first_prompt"
+    
+  counterfactual:
+    name: "Counterfactual"
+    description: "Assumes initial hypothesis is incorrect"
+    module: "prompts.counterfactual"
+    function: "get_counterfactual_prompt"
+    
+  gepa:
+    name: "AI-Optimized (GEPA)"
+    description: "Genetic Evolutionary Prompt Algorithms optimized prompts"
+    module: "prompts.gepa"
+    function: "get_gepa_prompt"
+

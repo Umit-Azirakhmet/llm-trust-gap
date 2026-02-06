@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Which of the following is not required for protein synthesis of eukaryotes:",
+    "options": {
+      "A": "RNA polymerase",
+      "B": "Ribosomes",
+      "C": "Peptidyl transferase",
+      "D": "Amino acyl tRNA synthetase"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "0ef0297d-91cb-4320-9d3e-6d04ae3e9c07",
+      "choice_type": "single",
+      "subject_name": "Biochemistry",
+      "topic_name": "",
+      "original_index": 0
+    }
+  },
+  {
+    "question": "Mgo added to alginate power to modify which property:",
+    "options": {
+      "A": "Increases surface character.",
+      "B": "Increases shelf life.",
+      "C": "Increases shear and tear strength.",
+      "D": "Improve strength."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "4bed11d9-70fd-4592-941c-6ba056318752",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 1
+    }
+  },
+  {
+    "question": "A patient with history of coronary aery disease presents with pulse rate of 48/min and low BP. Patient has decreased myocardial contractility on Echo. Which of these anesthetic agents is contraindicated?",
+    "options": {
+      "A": "Fentanyl",
+      "B": "Etomidate",
+      "C": "Ketamine",
+      "D": "Dexmedetomidine"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "65639a35-9603-40ce-9584-aaf1f53c71d4",
+      "choice_type": "single",
+      "subject_name": "Anaesthesia",
+      "topic_name": "",
+      "original_index": 2
+    }
+  },
+  {
+    "question": "Mean and standard deviation can be worked out only if data is on -",
+    "options": {
+      "A": "Interval/Ratio scale",
+      "B": "Dichotomous scale",
+      "C": "Nominal scale",
+      "D": "Ordinal scale"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "91f22318-7737-491a-8096-d504ac9c8aae",
+      "choice_type": "single",
+      "subject_name": "Social & Preventive Medicine",
+      "topic_name": "",
+      "original_index": 3
+    }
+  },
+  {
+    "question": "Which of the following inborn errors of metabolism is associated with mental retardation –a)  Alkaptonuriab)  Homocystinuriac)  Pentosuriad)  Galactosemia",
+    "options": {
+      "A": "c",
+      "B": "d",
+      "C": "bd",
+      "D": "ac"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "a1546ddd-5e66-42f2-897f-90fce5601b72",
+      "choice_type": "single",
+      "subject_name": "Pediatrics",
+      "topic_name": "",
+      "original_index": 4
+    }
+  },
+  {
+    "question": "Treatment of choice for a patient with gonococcal as well as non-gonococcal urethritis is:",
+    "options": {
+      "A": "Ceftriaxone 250 mg IM single dose",
+      "B": "Cefixime 400 mg oral single dose",
+      "C": "Ciprofloxacin 500 mg oral single dose",
+      "D": "Azithromycin 2 g oral single dose"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "fb8c4e20-6d34-461e-8e14-45fcd8c662e4",
+      "choice_type": "single",
+      "subject_name": "Pharmacology",
+      "topic_name": "AIIMS 2017",
+      "original_index": 5
+    }
+  },
+  {
+    "question": "During surgical excision of the parotid gland the following structures may be damaged:",
+    "options": {
+      "A": "Lesser occipital nerve, hypoglossal nerve, chorda tympani",
+      "B": "Facial nerve and auriculotemporal nerve",
+      "C": "Submandibular duct",
+      "D": "Cervical fascia"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "7bb79319-a8ea-4023-89bb-2423f53fc121",
+      "choice_type": "single",
+      "subject_name": "Surgery",
+      "topic_name": "",
+      "original_index": 6
+    }
+  },
+  {
+    "question": "A child is diagnosed to have acute gastroenteritis. The consulting pediatrician wants to send a stool sample to a lab which is 16-18 hours away. Which of the following mediums should he use to send this sample –",
+    "options": {
+      "A": "Charcol cotton bud",
+      "B": "Carry Blair medium",
+      "C": "Sterilized jar",
+      "D": "A medium with high CO2 content"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "56a4d5b8-c2e7-4534-9511-a30ff0769814",
+      "choice_type": "single",
+      "subject_name": "Pediatrics",
+      "topic_name": "",
+      "original_index": 7
+    }
+  },
+  {
+    "question": "In which of the following conditions is the role of microbial plaque most obscure:",
+    "options": {
+      "A": "Periodontitis",
+      "B": "Juvenile periodontitis",
+      "C": "Desquamative gingivitis",
+      "D": "Necrotising ulcerative gingivitis"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "18feef0f-7e8e-4eca-b9b3-57f3973b9a5b",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 8
+    }
+  },
+  {
+    "question": "White radiating Lines can be observed in case of Lesions of",
+    "options": {
+      "A": "Lichen planus",
+      "B": "Erythema multiforme",
+      "C": "Pemphigus",
+      "D": "Leukoplakia"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "b55d9ee8-ae0e-4a10-a2a5-f8553f94abec",
+      "choice_type": "single",
+      "subject_name": "Pathology",
+      "topic_name": "",
+      "original_index": 9
+    }
+  }
+]
