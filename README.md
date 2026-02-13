@@ -42,7 +42,7 @@ llm-trust-gap/
 
 ## Setup
 
-1. **Clone the repository** (if applicable)
+1. **Clone the repository**
 
 2. **Install dependencies:**
    ```bash
@@ -126,7 +126,8 @@ Each entry in the output contains:
   "outputted_answer": "C",
   "outputted_confidence": 85.0,
   "is_correct": true,
-  "internal_logit": -2.345,
+  "internal_logit": -0.005706787,
+  "internal_logit_normalized_100": 99.43094657771884,
   "model_output": "C 85%",
   "metadata": {
     "model": "llama-3.1-8b",
@@ -157,7 +158,7 @@ Model configurations can be found in `config/models.yaml`.
 ## Key Features
 
 - **Logit Extraction**: Extracts internal logits for the chosen answer token only (A, B, C, or D)
-- **Confidence Parsing**: Robust parsing of various output formats (e.g., "B 60%", "Answer: C (75%)")
+- **Confidence Parsing**: Parsing of output formats: A 64, A 64%
 - **Error Handling**: Graceful handling of API failures and parsing errors
 - **Modular Design**: Easy to add new prompt groups, models, or datasets
 
@@ -179,12 +180,3 @@ Model configurations can be found in `config/models.yaml`.
 1. Create an extraction script in `scripts/` (following the pattern of existing scripts)
 2. Convert your dataset to the required JSON format
 3. Place the JSON file in the appropriate `dataset/` subdirectory
-
-## License
-
-[Add your license here]
-
-## Citation
-
-[Add citation information here]
-

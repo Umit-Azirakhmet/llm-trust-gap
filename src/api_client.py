@@ -32,10 +32,9 @@ class TogetherAIClient:
         self,
         model: str,
         prompt: str,
-        logprobs: bool = True,
-        top_logprobs: int = 1,
-        temperature: float = 0.7,
-        max_tokens: int = 100
+        logprobs: bool,
+        temperature: float,
+        max_tokens: int
     ) -> Dict[str, Any]:
         """
         Generate a completion with logit information.
@@ -43,8 +42,7 @@ class TogetherAIClient:
         Args:
             model: Model identifier (e.g., "meta-llama/Llama-3.1-8B-Instruct")
             prompt: Input prompt
-            logprobs: Whether to return log probabilities
-            top_logprobs: Number of top logprobs to return
+            logprobs: Whether to return log probabilities (only for generated tokens)
             temperature: Sampling temperature
             max_tokens: Maximum tokens to generate
             
@@ -57,13 +55,7 @@ class TogetherAIClient:
         """
 
         want_logprobs = bool(logprobs)
-        logprobs_k = None
-        if want_logprobs:
-            try:
-                logprobs_k = int(top_logprobs)
-            except (TypeError, ValueError):
-                logprobs_k = 1
-            logprobs_k = max(1, min(5, logprobs_k))
+        logprobs_k = 1 if want_logprobs else None
         payload: Dict[str, Any] = {
             "model": model,
             "messages": [
@@ -105,18 +97,16 @@ class TogetherAIClient:
                 #     "token_ids": [...],
                 #     "tokens": [...],
                 #     "token_logprobs": [...],
-                #     "top_logprobs": [ {tokenStr: logprob, ...}, ... ]
                 #   }
                 #
                 # We normalize to a list of per-token dicts:
-                #   [{"token": str, "logprob": float, "top_logprobs": dict}, ...]
+                #   [{"token": str, "logprob": float}, ...]
                 logprobs_data = choice.get("logprobs") or {}
                 token_logprobs = []
                 tokens = []
                 if isinstance(logprobs_data, dict) and "tokens" in logprobs_data and "token_logprobs" in logprobs_data:
                     tokens = list(logprobs_data.get("tokens") or [])
                     token_logprob_vals = list(logprobs_data.get("token_logprobs") or [])
-                    top_logprobs_vals = list(logprobs_data.get("top_logprobs") or [])
 
                     n = min(len(tokens), len(token_logprob_vals))
                     for i in range(n):
@@ -124,7 +114,6 @@ class TogetherAIClient:
                             {
                                 "token": tokens[i],
                                 "logprob": token_logprob_vals[i],
-                                "top_logprobs": top_logprobs_vals[i] if i < len(top_logprobs_vals) else None,
                             }
                         )
                 
@@ -139,49 +128,4 @@ class TogetherAIClient:
                 
         except requests.exceptions.RequestException as e:
             raise Exception(f"API request failed: {str(e)}")
-    
-    def get_logit_for_token(
-        self,
-        model: str,
-        prompt: str,
-        target_token: str,
-        temperature: float = 0.7,
-        max_tokens: int = 100
-    ) -> Optional[float]:
-        """
-        Get the logit value for a specific token in the generated output.
-        
-        Args:
-            model: Model identifier
-            prompt: Input prompt
-            target_token: Token to extract logit for (e.g., "A", "B", "C", "D")
-            temperature: Sampling temperature
-            max_tokens: Maximum tokens to generate
-            
-        Returns:
-            Logit value for the target token, or None if not found
-        """
-        response = self.generate(
-            model=model,
-            prompt=prompt,
-            logprobs=True,
-            top_logprobs=10,
-            temperature=temperature,
-            max_tokens=max_tokens
-        )
-        
-        logprobs = response.get("logprobs", [])
-        
-        #Search for the target token in the logprobs
-        for logprob_item in logprobs:
-            token = logprob_item.get("token", "").strip()
-            #Check if this is the target token (handle whitespace variations)
-            if token == target_token or token.strip() == target_token:
-                top_logprobs = logprob_item.get("top_logprobs")
-                if isinstance(top_logprobs, dict) and target_token in top_logprobs:
-                    return top_logprobs.get(target_token)
-                # Fallback to the realized token logprob
-                return logprob_item.get("logprob")
-        
-        return None
 

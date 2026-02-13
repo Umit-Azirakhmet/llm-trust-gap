@@ -42,7 +42,7 @@ class ExperimentRunner:
         
         # Initialize API client and logit extractor
         self.api_client = TogetherAIClient()
-        self.logit_extractor = LogitExtractor(self.api_client)
+        self.logit_extractor = LogitExtractor()
         
         # Load dataset
         self.dataset = load_json(dataset_path)
@@ -79,10 +79,9 @@ class ExperimentRunner:
             response = self.api_client.generate(
                 model=self.model_id,
                 prompt=prompt,
-                logprobs=self.default_params.get("logprobs", True),
-                top_logprobs=self.default_params.get("top_logprobs", 10),
-                temperature=self.default_params.get("temperature", 0.7),
-                max_tokens=self.default_params.get("max_tokens", 100)
+                logprobs=self.default_params["logprobs"],
+                temperature=self.default_params["temperature"],
+                max_tokens=self.default_params["max_tokens"]
             )
             model_output = response.get("text", "")
         except Exception as e:
@@ -96,19 +95,19 @@ class ExperimentRunner:
         if not validate_parsed_output(outputted_answer, outputted_confidence):
             print(f"Warning: Failed to parse output for question {question_id}: {model_output}")
         
-        # Extract internal logit (Together provides token logprobs) for the chosen answer.
+        # Extract internal logit for the chosen answer.
         internal_logit = None
         internal_logit_normalized_100 = None
         if outputted_answer:
             try:
-                internal_logit = self.logit_extractor.extract_logprob_for_answer_from_generation(
+                internal_logit = self.logit_extractor.extract_logprob(
                     generation=response,
                     answer_letter=outputted_answer,
                 )
             except Exception as e:
                 print(f"Error extracting logit for question {question_id}: {e}")
 
-        # Normalize internal logit (actually token logprob) into a 0-100 score:
+        # Normalize internal logit
         if internal_logit is not None:
             try:
                 internal_logit_normalized_100 = max(0.0, min(100.0, math.exp(float(internal_logit)) * 100.0))
@@ -123,12 +122,12 @@ class ExperimentRunner:
             "question_id": question_id,
             "question": question,
             "options": options,
+            "V": int(outputted_confidence) if outputted_confidence is not None else None,
+            "P": int(internal_logit_normalized_100) if internal_logit_normalized_100 is not None else None,
             "gold_answer": gold_answer,
             "outputted_answer": outputted_answer,
-            "outputted_confidence": outputted_confidence,
             "is_correct": is_correct,
             "internal_logit": internal_logit,
-            "internal_logit_normalized_100": internal_logit_normalized_100,
             "model_output": model_output,
             "metadata": {
                 "model": self.model,
