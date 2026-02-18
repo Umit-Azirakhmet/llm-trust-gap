@@ -1,15 +1,23 @@
 """Prompt templates for different experimental groups."""
 
-from prompts.control import get_control_prompt
-from prompts.evidence_first import get_evidence_first_prompt
-from prompts.counterfactual import get_counterfactual_prompt
-from prompts.gepa import get_gepa_prompt
+from prompts.g0_control import get_control_prompt as get_g0_prompt
+from prompts.g1_evidence import get_g1_evidence_prompt
+from prompts.g2_counterfactual import get_g2_counterfactual_prompt
+from prompts.g3_inoculation import get_g3_inoculation_prompt
+from prompts.g4_persona import get_g4_persona_prompt
+from prompts.g5_scoring_rule import get_g5_scoring_rule_prompt
+from prompts.g6_anchoring import get_g6_anchoring_prompt
 
 PROMPT_GROUPS = {
-    "control": get_control_prompt,
-    "evidence_first": get_evidence_first_prompt,
-    "counterfactual": get_counterfactual_prompt,
-    "gepa": get_gepa_prompt
+    
+    # Added by Jessica
+    "g0": get_g0_prompt,
+    "g1": get_g1_evidence_prompt,
+    "g2": get_g2_counterfactual_prompt,
+    "g3": get_g3_inoculation_prompt,
+    "g4": get_g4_persona_prompt,
+    "g5": get_g5_scoring_rule_prompt,
+    "g6": get_g6_anchoring_prompt,
 }
 
 def get_prompt(prompt_group: str, question: str, options: dict) -> str:
