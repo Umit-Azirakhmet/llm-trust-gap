@@ -7,6 +7,7 @@ from prompts.g3_inoculation import get_g3_inoculation_prompt
 from prompts.g4_persona import get_g4_persona_prompt
 from prompts.g5_scoring_rule import get_g5_scoring_rule_prompt
 from prompts.g6_anchoring import get_g6_anchoring_prompt
+from prompts.g7_gepa import get_g7_gepa_prompt
 
 PROMPT_GROUPS = {
     
@@ -18,6 +19,7 @@ PROMPT_GROUPS = {
     "g4": get_g4_persona_prompt,
     "g5": get_g5_scoring_rule_prompt,
     "g6": get_g6_anchoring_prompt,
+    "g7": get_g7_gepa_prompt,
 }
 
 def get_prompt(prompt_group: str, question: str, options: dict) -> str:
