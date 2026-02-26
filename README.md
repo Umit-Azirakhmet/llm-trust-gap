@@ -6,6 +6,35 @@ This repository contains code for investigating the "trust gap" in Large Languag
 
 This research evaluates whether structural prompting (evidence-first, counterfactual reasoning, and AI-optimized prompts) can serve as a forcing function for honesty and improve behavioral trustworthiness in LLMs. We extract internal logits from state-of-the-art models via the TogetherAI API and compare them with verbalized confidence scores.
 
+## System Architecture
+
+```mermaid
+flowchart TD
+    A[Datasets<br/>MMLU, MedMCQA, TriviaQA, etc.] --> B[Experiment Runner]
+    C[Config Files<br/>models.yaml, prompts.yaml] --> B
+    D[Prompt Groups<br/>g0: Control<br/>g1: Evidence-First<br/>g2: Counterfactual<br/>g3-g7: Advanced] --> B
+    
+    B --> E[Prompt Generator<br/>Combines question + options<br/>with prompt template]
+    E --> F[TogetherAI API Client<br/>Generates response with logprobs]
+    
+    F --> G[Model Response<br/>Text output + logprobs]
+    
+    G --> H[Parser<br/>Extract answer letter<br/>Extract confidence V]
+    G --> I[Logit Extractor<br/>Extract internal logit P<br/>for chosen answer token]
+    
+    H --> J[Result Aggregator]
+    I --> J
+    
+    J --> K[Output JSON<br/>V vs P comparison<br/>Correctness metrics<br/>Metadata]
+    
+    style A fill:#e1f5ff
+    style D fill:#fff4e1
+    style F fill:#ffe1f5
+    style H fill:#e1ffe1
+    style I fill:#e1ffe1
+    style K fill:#f0e1ff
+```
+
 ## Repository Structure
 
 ```
@@ -92,7 +121,7 @@ Run experiments using the main experiment runner:
 ```bash
 python src/experiment.py \
   --model llama-3.1-8b \
-  --prompt-group control \
+  --prompt-group g0 \
   --dataset dataset/medmcqa_1000.json \
   --output-dir outputs/results
 ```
@@ -102,7 +131,7 @@ python src/experiment.py \
 - `--model`: Model identifier (see `config/models.yaml` for available models)
   - Options: `llama-3.1-8b`, `llama-3.1-70b`, `mistral-small`, `gemma-3-4b`, `qwen-3-80b`, `deepseek-v3.1`
 - `--prompt-group`: Prompt group to use
-  - Options: `control`, `evidence_first`, `counterfactual`, `gepa`
+  - Options: `g0` , `g1`, `g2`, `g3`, `g4`, `g5`, `g6`, `g7`
 - `--dataset`: Path to JSON dataset file
 - `--output-dir`: Directory to save output JSON file (default: `outputs/results`)
 
@@ -132,7 +161,7 @@ Each entry in the output contains:
   "metadata": {
     "model": "llama-3.1-8b",
     "model_id": "meta-llama/Llama-3.1-8B-Instruct",
-    "prompt_group": "control",
+    "prompt_group": "g0",
     "dataset": "mmlu"
   }
 }
