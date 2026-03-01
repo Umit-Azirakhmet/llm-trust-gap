@@ -92,30 +92,57 @@ class TogetherAIClient:
                 
                 # Extract logprobs if available.
                 #
-                # Together returns a structure like:
-                #   choice["logprobs"] = {
-                #     "token_ids": [...],
-                #     "tokens": [...],
-                #     "token_logprobs": [...],
-                #   }
+                # Together currently uses two different shapes for chat logprobs:
                 #
-                # We normalize to a list of per-token dicts:
+                # 1) Llama-style:
+                #    choice["logprobs"] = {
+                #      "token_ids": [...],
+                #      "tokens": [...],
+                #      "token_logprobs": [...],
+                #    }
+                #
+                # 2) Mistral / Gemma / Qwen-style:
+                #    choice["logprobs"] = {
+                #      "content": [
+                #        {"token": str, "logprob": float, ...},
+                #        ...
+                #      ]
+                #    }
+                #
+                # We normalize both into a flat list of per-token dicts:
                 #   [{"token": str, "logprob": float}, ...]
                 logprobs_data = choice.get("logprobs") or {}
                 token_logprobs = []
                 tokens = []
-                if isinstance(logprobs_data, dict) and "tokens" in logprobs_data and "token_logprobs" in logprobs_data:
-                    tokens = list(logprobs_data.get("tokens") or [])
-                    token_logprob_vals = list(logprobs_data.get("token_logprobs") or [])
 
-                    n = min(len(tokens), len(token_logprob_vals))
-                    for i in range(n):
-                        token_logprobs.append(
-                            {
-                                "token": tokens[i],
-                                "logprob": token_logprob_vals[i],
-                            }
-                        )
+                if isinstance(logprobs_data, dict):
+                    # Case 1: Llama-style tokens + token_logprobs arrays
+                    if "tokens" in logprobs_data and "token_logprobs" in logprobs_data:
+                        tokens = list(logprobs_data.get("tokens") or [])
+                        token_logprob_vals = list(logprobs_data.get("token_logprobs") or [])
+
+                        n = min(len(tokens), len(token_logprob_vals))
+                        for i in range(n):
+                            token_logprobs.append(
+                                {
+                                    "token": tokens[i],
+                                    "logprob": token_logprob_vals[i],
+                                }
+                            )
+                    # Case 2: content list of token/logprob dicts
+                    elif "content" in logprobs_data and isinstance(logprobs_data.get("content"), list):
+                        for item in logprobs_data.get("content", []):
+                            tok = item.get("token")
+                            lp = item.get("logprob")
+                            if tok is None or lp is None:
+                                continue
+                            tokens.append(tok)
+                            token_logprobs.append(
+                                {
+                                    "token": tok,
+                                    "logprob": lp,
+                                }
+                            )
                 
                 return {
                     "text": text,
