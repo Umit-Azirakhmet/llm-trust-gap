@@ -4,12 +4,12 @@ import argparse
 import sys
 import math
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 from src.api_client import TogetherAIClient
 from src.logit_extractor import LogitExtractor
 from src.parser import parse_answer_and_confidence, validate_parsed_output
 from src.utils import (
-    load_json, save_json, load_yaml, format_output_filename,
+    load_json, save_json, load_yaml,
     validate_dataset_entry, get_timestamp
 )
 from prompts import get_prompt
@@ -139,47 +139,58 @@ class ExperimentRunner:
         
         return result
     
-    def run(self, output_dir: str = "outputs/results") -> str:
+    def run(
+        self,
+        output_dir: str = "outputs/results",
+        only_indices: Optional[List[int]] = None,
+    ) -> str:
         """
-        Run the experiment on all questions in the dataset.
-        
+        Run the experiment on (optionally a subset of) questions in the dataset.
+
         Args:
             output_dir: Directory to save output JSON file
-            
+            only_indices: If set, only process these question indices (for retrying failures).
+
         Returns:
             Path to the output file
         """
+        indices_to_run = (
+            sorted(only_indices)
+            if only_indices is not None
+            else list(range(len(self.dataset)))
+        )
+        n_total = len(indices_to_run)
         print(f"Running experiment: {self.model} / {self.prompt_group} / {Path(self.dataset_path).stem}")
-        print(f"Processing {len(self.dataset)} questions...")
-        
-        for i, entry in enumerate(self.dataset):
+        print(f"Processing {n_total} questions..." + (" (only-indices mode)" if only_indices else ""))
+
+        for idx, i in enumerate(indices_to_run):
+            if i < 0 or i >= len(self.dataset):
+                print(f"Warning: index {i} out of range, skipping")
+                continue
+            entry = self.dataset[i]
             try:
                 result = self.process_question(entry, i)
                 self.results.append(result)
-                
-                # Print progress
-                if (i + 1) % 10 == 0:
-                    print(f"Processed {i + 1}/{len(self.dataset)} questions...")
-                    
+
+                if (idx + 1) % 10 == 0:
+                    print(f"Processed {idx + 1}/{n_total} questions...")
             except Exception as e:
                 print(f"Error processing question {i}: {e}")
-                # Add error entry
                 self.results.append({
                     "question_id": i,
                     "error": str(e),
                     "metadata": {
                         "model": self.model,
                         "prompt_group": self.prompt_group,
-                        "dataset": Path(self.dataset_path).stem
-                    }
+                        "dataset": Path(self.dataset_path).stem,
+                    },
                 })
         
         # Save results
         timestamp = get_timestamp()
         dataset_name = Path(self.dataset_path).stem
-        output_filename = format_output_filename(
-            self.model, self.prompt_group, dataset_name, timestamp
-        )
+        suffix = "_retry" if only_indices else ""
+        output_filename = f"{self.model}_{self.prompt_group}_{dataset_name}{suffix}_{timestamp}.json"
         output_path = Path(output_dir) / output_filename
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
@@ -220,18 +231,31 @@ def main():
         "--output-dir",
         type=str,
         default="outputs/results",
-        help="Directory to save output JSON file (default: outputs/results)"
+        help="Directory to save output JSON file (default: outputs/results)",
     )
-    
+    parser.add_argument(
+        "--only-indices",
+        type=str,
+        default=None,
+        help="Comma-separated question indices to run only (e.g. '47,280,284'). For retrying failed items.",
+    )
+
     args = parser.parse_args()
+
+    only_indices = None
+    if args.only_indices:
+        only_indices = [int(x.strip()) for x in args.only_indices.split(",") if x.strip()]
     
     try:
         runner = ExperimentRunner(
             model=args.model,
             prompt_group=args.prompt_group,
-            dataset_path=args.dataset
+            dataset_path=args.dataset,
         )
-        output_path = runner.run(output_dir=args.output_dir)
+        output_path = runner.run(
+            output_dir=args.output_dir,
+            only_indices=only_indices,
+        )
         print(f"\nSuccess! Output saved to: {output_path}")
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)

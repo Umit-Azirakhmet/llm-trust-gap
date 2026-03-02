@@ -74,7 +74,7 @@ class TogetherAIClient:
                 self.base_url,
                 headers=self.headers,
                 json=payload,
-                timeout=180
+                timeout=360
             )
             # If Together returns a 4xx/5xx, include response text for debugging.
             if not response.ok:
