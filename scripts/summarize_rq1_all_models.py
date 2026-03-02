@@ -80,7 +80,7 @@ def load_group_results(results_dir: Path, model: str, dataset: str) -> dict:
 
 
 def compute_metrics(data: list, cer_threshold: int = CER_THRESHOLD) -> dict | None:
-    """Compute RQ1 metrics: Acc, Mean V, Mean P, V-P Gap, vp_diffs, Spearman corr(V,P), p-value."""
+    """Compute RQ1 metrics: Acc, Mean V, Mean P, Spearman corr(V,P), p-value. Alignment = corr."""
     if not data:
         return None
     correct = [1 if r.get("is_correct") else 0 for r in data]
@@ -89,8 +89,6 @@ def compute_metrics(data: list, cer_threshold: int = CER_THRESHOLD) -> dict | No
     acc = float(np.mean(correct) * 100)
     mean_v = float(np.mean(V)) if V else None
     mean_p = float(np.mean(P)) if P else None
-    vp_diffs = [abs(r["V"] - r["P"]) / 100.0 for r in data if r.get("V") is not None and r.get("P") is not None]
-    vp_gap = float(np.mean(vp_diffs)) if vp_diffs else None
     v_for_corr = [r["V"] for r in data if r.get("V") is not None and r.get("P") is not None]
     p_for_corr = [r["P"] for r in data if r.get("V") is not None and r.get("P") is not None]
     spearman_corr = None
@@ -104,18 +102,16 @@ def compute_metrics(data: list, cer_threshold: int = CER_THRESHOLD) -> dict | No
         "acc": acc,
         "mean_v": mean_v,
         "mean_p": mean_p,
-        "vp_gap": vp_gap,
-        "vp_diffs": vp_diffs,
         "spearman_corr": spearman_corr,
         "spearman_p": spearman_p,
     }
 
 
 def print_rq1_table(metrics: dict) -> None:
-    """Print a single RQ1 table (same format as analyze_results.py)."""
-    wG, wS, wA, wV, wP, wVP, wPt, wCorr, wPcorr = 5, 20, 5, 7, 7, 7, 10, 10, 10
-    print("| " + _cell("Group", wG) + " | " + _cell("Strategy", wS) + " | " + _cell("Acc.", wA) + " | " + _cell("Mean V", wV) + " | " + _cell("Mean P", wP) + " | " + _cell("V-P Gap", wVP) + " | " + _cell("p (t-test vs G0)", wPt) + " | " + _cell("corr(V,P)", wCorr) + " | " + _cell("p (corr)", wPcorr) + " |")
-    print("|" + "-" * (wG + 2) + "|" + "-" * (wS + 2) + "|" + "-" * (wA + 2) + "|" + "-" * (wV + 2) + "|" + "-" * (wP + 2) + "|" + "-" * (wVP + 2) + "|" + "-" * (wPt + 2) + "|" + "-" * (wCorr + 2) + "|" + "-" * (wPcorr + 2) + "|")
+    """Print RQ1 table: Group, Strategy, Acc., Mean V, Mean P, Alignment ρ(V,P), p (corr)."""
+    wG, wS, wA, wV, wP, wCorr, wPcorr = 5, 20, 5, 7, 7, 12, 10
+    print("| " + _cell("Group", wG) + " | " + _cell("Strategy", wS) + " | " + _cell("Acc.", wA) + " | " + _cell("Mean V", wV) + " | " + _cell("Mean P", wP) + " | " + _cell("corr(V,P)", wCorr) + " | " + _cell("p (corr)", wPcorr) + " |")
+    print("|" + "-" * (wG + 2) + "|" + "-" * (wS + 2) + "|" + "-" * (wA + 2) + "|" + "-" * (wV + 2) + "|" + "-" * (wP + 2) + "|" + "-" * (wCorr + 2) + "|" + "-" * (wPcorr + 2) + "|")
     for g in ALL_GROUPS:
         if g not in metrics:
             continue
@@ -123,20 +119,9 @@ def print_rq1_table(metrics: dict) -> None:
         acc = f"{m['acc']:.0f}%"
         mv = f"{m['mean_v']:.1f}%" if m["mean_v"] is not None else "—"
         mp = f"{m['mean_p']:.1f}%" if m["mean_p"] is not None else "—"
-        vp = f"{m['vp_gap']:.3f}" if m["vp_gap"] is not None else "—"
         corr_str = f"{m['spearman_corr']:.3f}" if m.get("spearman_corr") is not None else "—"
         p_corr_str = f"{m['spearman_p']:.3f}" if m.get("spearman_p") is not None else "—"
-        if g == "g0":
-            p_str = "—"
-        else:
-            g0_vp = metrics.get("g0", {}).get("vp_diffs", [])
-            gx_vp = m.get("vp_diffs", [])
-            if g0_vp and gx_vp:
-                _, p_val = stats.ttest_ind(g0_vp, gx_vp)
-                p_str = f"{p_val:.3f}"
-            else:
-                p_str = "—"
-        print("| " + _cell(g.upper(), wG) + " | " + _cell(GROUP_STRATEGY.get(g, g), wS) + " | " + _cell(acc, wA) + " | " + _cell(mv, wV) + " | " + _cell(mp, wP) + " | " + _cell(vp, wVP) + " | " + _cell(p_str, wPt) + " | " + _cell(corr_str, wCorr) + " | " + _cell(p_corr_str, wPcorr) + " |")
+        print("| " + _cell(g.upper(), wG) + " | " + _cell(GROUP_STRATEGY.get(g, g), wS) + " | " + _cell(acc, wA) + " | " + _cell(mv, wV) + " | " + _cell(mp, wP) + " | " + _cell(corr_str, wCorr) + " | " + _cell(p_corr_str, wPcorr) + " |")
     print()
 
 
@@ -161,8 +146,8 @@ def main() -> None:
     results_base = args.results_base.resolve() if args.results_base.is_absolute() else ROOT
 
     print("\n# RQ1: Comparative Analysis by Prompt Group (all models)\n")
-    print("Acc = accuracy (%).  Mean V / Mean P = mean verbalized / mean internal confidence.")
-    print("V-P Gap = mean |V−P|.  p (t-test) = t-test on |V−P| vs G0.  corr(V,P) = Spearman ρ.  p (corr) = p-value for Spearman test.\n")
+    print("Alignment = Spearman ρ(V,P): monotonic alignment between verbalized (V) and internal (P) confidence.")
+    print("Acc = accuracy (%).  Mean V / Mean P = mean verbalized / mean internal confidence.  p (corr) = p-value for Spearman test.\n")
 
     for model_key, display_name, rel_dir in MODELS:
         results_dir = results_base / rel_dir

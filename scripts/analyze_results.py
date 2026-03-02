@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Summarize experiment results: Comparative Analysis (with V-P gap vs G0), RQ2, RQ3.
+Summarize experiment results: Comparative Analysis (alignment = Spearman corr(V,P)), RQ2, RQ3.
 Usage:
   python scripts/analyze_results.py --model llama-3.1-8b --dataset medmcqa_10
   python scripts/analyze_results.py --model llama-3.1-8b --dataset medmcqa_100
@@ -178,15 +178,15 @@ def main():
         if m:
             metrics[g] = m
 
-    # RQ1 table: Acc, Mean V, Mean P, V-P Gap, p (t-test V-P vs G0), corr(V,P), p (corr)
-    wG, wS, wA, wV, wP, wVP, wPt, wCorr, wPcorr = 5, 20, 5, 7, 7, 7, 10, 10, 10
+    # RQ1 table: Acc, Mean V, Mean P, Alignment corr(V,P), p (corr).  Alignment = Spearman ρ.
+    wG, wS, wA, wV, wP, wCorr, wPcorr = 5, 20, 5, 7, 7, 10, 10
 
     title = args.title or f"Preliminary Results - {model}, {dataset}"
     print(f"\n# {title}\n")
     print("## RQ1: Comparative Analysis by Prompt Group\n")
-    print("Acc = accuracy (%).  Mean V / Mean P = mean verbalized / mean internal confidence.  V-P Gap = mean |V−P|.  p (t-test) = t-test on |V−P| vs G0.  corr(V,P) = Spearman ρ.  p (corr) = p-value for Spearman test.\n")
-    print("| " + _cell("Group", wG) + " | " + _cell("Strategy", wS) + " | " + _cell("Acc.", wA) + " | " + _cell("Mean V", wV) + " | " + _cell("Mean P", wP) + " | " + _cell("V-P Gap", wVP) + " | " + _cell("p (t-test vs G0)", wPt) + " | " + _cell("corr(V,P)", wCorr) + " | " + _cell("p (corr)", wPcorr) + " |")
-    print("|" + "-" * (wG + 2) + "|" + "-" * (wS + 2) + "|" + "-" * (wA + 2) + "|" + "-" * (wV + 2) + "|" + "-" * (wP + 2) + "|" + "-" * (wVP + 2) + "|" + "-" * (wPt + 2) + "|" + "-" * (wCorr + 2) + "|" + "-" * (wPcorr + 2) + "|")
+    print("Alignment = Spearman ρ(V,P) (monotonic alignment between verbalized and internal confidence).  Acc = accuracy (%).  Mean V / Mean P = mean verbalized / mean internal confidence.  p (corr) = p-value for Spearman test.\n")
+    print("| " + _cell("Group", wG) + " | " + _cell("Strategy", wS) + " | " + _cell("Acc.", wA) + " | " + _cell("Mean V", wV) + " | " + _cell("Mean P", wP) + " | " + _cell("corr(V,P)", wCorr) + " | " + _cell("p (corr)", wPcorr) + " |")
+    print("|" + "-" * (wG + 2) + "|" + "-" * (wS + 2) + "|" + "-" * (wA + 2) + "|" + "-" * (wV + 2) + "|" + "-" * (wP + 2) + "|" + "-" * (wCorr + 2) + "|" + "-" * (wPcorr + 2) + "|")
 
     for g in ALL_GROUPS:
         if g not in metrics:
@@ -195,20 +195,9 @@ def main():
         acc = f"{m['acc']:.0f}%"
         mv = f"{m['mean_v']:.1f}%" if m["mean_v"] is not None else "—"
         mp = f"{m['mean_p']:.1f}%" if m["mean_p"] is not None else "—"
-        vp = f"{m['vp_gap']:.3f}" if m["vp_gap"] is not None else "—"
         corr_str = f"{m['spearman_corr']:.3f}" if m.get("spearman_corr") is not None else "—"
         p_corr_str = f"{m['spearman_p']:.3f}" if m.get("spearman_p") is not None else "—"
-        if g == "g0":
-            p_str = "—"
-        else:
-            g0_vp = metrics.get("g0", {}).get("vp_diffs", [])
-            gx_vp = m.get("vp_diffs", [])
-            if g0_vp and gx_vp:
-                _, p_val = stats.ttest_ind(g0_vp, gx_vp)
-                p_str = f"{p_val:.3f}"
-            else:
-                p_str = "—"
-        print("| " + _cell(g.upper(), wG) + " | " + _cell(GROUP_STRATEGY.get(g, g), wS) + " | " + _cell(acc, wA) + " | " + _cell(mv, wV) + " | " + _cell(mp, wP) + " | " + _cell(vp, wVP) + " | " + _cell(p_str, wPt) + " | " + _cell(corr_str, wCorr) + " | " + _cell(p_corr_str, wPcorr) + " |")
+        print("| " + _cell(g.upper(), wG) + " | " + _cell(GROUP_STRATEGY.get(g, g), wS) + " | " + _cell(acc, wA) + " | " + _cell(mv, wV) + " | " + _cell(mp, wP) + " | " + _cell(corr_str, wCorr) + " | " + _cell(p_corr_str, wPcorr) + " |")
 
     # RQ2
     wE, wB, wC, wPc = 8, 8, 10, 10
