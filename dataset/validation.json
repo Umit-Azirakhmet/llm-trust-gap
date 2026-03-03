@@ -1,0 +1,902 @@
+[
+  {
+    "question": "To check objective pain response, which is best used method",
+    "options": {
+      "A": "Facial pain scale",
+      "B": "Knee jerk reflex",
+      "C": "H - Reflex",
+      "D": "R III Reflex"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "17d49a43-a8cf-43c9-9c9e-70a42e741af1",
+      "choice_type": "single",
+      "subject_name": "Physiology",
+      "topic_name": "",
+      "original_index": 0
+    }
+  },
+  {
+    "question": "HOX gene is responsible for which malformation",
+    "options": {
+      "A": "Polysyndactyly",
+      "B": "Holoprosencephaly",
+      "C": "Mayer Rokitansky syndrome",
+      "D": "Gorlin syndrome"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "163bb472-c103-427d-af80-65e0d820cfb6",
+      "choice_type": "single",
+      "subject_name": "Pathology",
+      "topic_name": "",
+      "original_index": 1
+    }
+  },
+  {
+    "question": "Incomplete casting is the result of:",
+    "options": {
+      "A": "More porous investment in the mould",
+      "B": "Narrow sprue diameter",
+      "C": "Hollow sprue pin",
+      "D": "Large reservoir"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "608ee01c-9e31-4688-a5b3-eaab8ca54795",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 2
+    }
+  },
+  {
+    "question": "Basic fear of a 2-year-old child during his first visit to\nthe dentist is related to",
+    "options": {
+      "A": "Fear of an injection",
+      "B": "Fear of separation from parent",
+      "C": "Fear of dental instruments",
+      "D": "Not understanding the reason for dental treatment"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "a48f8ece-9420-439a-8ff9-19093ec0c03f",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 3
+    }
+  },
+  {
+    "question": "Children with germline retinoblastoma are more likely to develop other primary malignancies in their later lifetime course. Which of the following malignancy can occur in such patients?",
+    "options": {
+      "A": "Osteosarcoma of lower limbs",
+      "B": "Thyroid carcinoma",
+      "C": "Seminoma",
+      "D": "Renal cell carcinoma"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "1e5b509f-35b6-4133-95ab-dbd33122ed8f",
+      "choice_type": "single",
+      "subject_name": "Pediatrics",
+      "topic_name": "",
+      "original_index": 4
+    }
+  },
+  {
+    "question": "Which muscle is responsible for translation of condyle?",
+    "options": {
+      "A": "Medial pterygoid",
+      "B": "Masseter",
+      "C": "Superior constrictor of pharynx",
+      "D": "Lateral pterygoid"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "936ed4f5-e283-4e25-97a3-a696b0539389",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 5
+    }
+  },
+  {
+    "question": "A 55-year-old male presents with renal failure. He gives a history of mild bone pains for the last 7 years. X-ray pelvis shows osteolytic lesions. Serum electrophoresis reveals a M spike. Peripheral blood evaluation showed rouleaux formation of RBCs with 35% plasma cells. Bone marrow examination showed a increase in plasma cells with aberrant antigen expression. The most likely diagnosis is:",
+    "options": {
+      "A": "Multiple myeloma",
+      "B": "Monoclonal gammopathy with unknown significance",
+      "C": "Smouldering myeloma",
+      "D": "Plasma cell leukemia"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "f2bb0a0b-b19d-41d8-9435-36d7eab51d07",
+      "choice_type": "single",
+      "subject_name": "Medicine",
+      "topic_name": "",
+      "original_index": 6
+    }
+  },
+  {
+    "question": "Which of the following anticholinergic agent does not cross the blood brain barrier?",
+    "options": {
+      "A": "Glycopyrrolate",
+      "B": "Atropine",
+      "C": "Hyoscine butylbromide",
+      "D": "Hyoscine hydrobromide"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "b71747a9-b89b-45b2-a54f-04765341177b",
+      "choice_type": "single",
+      "subject_name": "Pharmacology",
+      "topic_name": "",
+      "original_index": 7
+    }
+  },
+  {
+    "question": "In carrier base gutta percha the plastic carrier size of 40- 90 are made by?",
+    "options": {
+      "A": "Plastic liquid crystal",
+      "B": "Poly propylene",
+      "C": "Poly sulphide",
+      "D": "Poly sulphone"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "bebb654f-88d5-4a1f-a9fb-dd65b42beeca",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 8
+    }
+  },
+  {
+    "question": "Greatest potential hazard of mercury toxicity occurs due to:",
+    "options": {
+      "A": "Skin contact with mercury",
+      "B": "Inhalation of mercury vapours",
+      "C": "During amalgam restoration",
+      "D": "Ingestion of amalgam scrap during removal"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "f3022374-f442-471a-b015-f438366b61e3",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 9
+    }
+  },
+  {
+    "question": "Consistent radiographs require:",
+    "options": {
+      "A": "Long cone technique",
+      "B": "Fixed kvp & mA",
+      "C": "Automatic processing",
+      "D": "Proper developing"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "f841125e-342d-4ad5-9138-4acd357f08c6",
+      "choice_type": "single",
+      "subject_name": "Radiology",
+      "topic_name": "",
+      "original_index": 10
+    }
+  },
+  {
+    "question": "Sclerotic dentin has following features:",
+    "options": {
+      "A": "Caries susceptible",
+      "B": "Insensitive",
+      "C": "Hypersensitive",
+      "D": "Resistant to caries"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "35634c84-4820-4593-a7ec-a677b47f2719",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 11
+    }
+  },
+  {
+    "question": "Alginate fillers derived from",
+    "options": {
+      "A": "Calcium sulphate",
+      "B": "Sodium phosphate",
+      "C": "Potassium alginate",
+      "D": "Diatomaceous earth"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "9cce1fbe-7ebe-41f3-8c98-1204c6cf99b9",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 12
+    }
+  },
+  {
+    "question": "Most constant and valuable trait to differentiate among maxillary 1st , 2nd and 3rd molars is",
+    "options": {
+      "A": "Relative position of DL groove",
+      "B": "Relative position of ML groove",
+      "C": "ML cusp size",
+      "D": "Oblique ridge size"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "c138ad82-08de-476f-b7cc-037bb25ef376",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 13
+    }
+  },
+  {
+    "question": "An un-immunized 13 months old child comes to you in OPD, according to the latest immunizations schedule, what vaccines will you advise??",
+    "options": {
+      "A": "OPV 3 doses, I IPV 3 Pentavalent and I measles",
+      "B": "BCG, OPV 3 doses, 3 lPV, 3 Pentavalent and I measles",
+      "C": "OPV 3 doses, I IPV 3 Pentavalent and 2 measles",
+      "D": "OPV 3 doses, 3 IPV 3 DPI : Hep-B"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "238019d8-3c6b-486e-9d00-fda1273d22e7",
+      "choice_type": "single",
+      "subject_name": "Pediatrics",
+      "topic_name": "",
+      "original_index": 14
+    }
+  },
+  {
+    "question": "A patient on amphotericin B develops hypokalemia of 2.3 meq/l. K+ supplementation required?",
+    "options": {
+      "A": "40 mEq over 24 hours",
+      "B": "60 mEq over 24 hours",
+      "C": "80 mEq over 24 hours",
+      "D": "120-160 mEq over 24 hours"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "a3254f11-cbb8-4b34-b1fa-db125225541f",
+      "choice_type": "single",
+      "subject_name": "Medicine",
+      "topic_name": "",
+      "original_index": 15
+    }
+  },
+  {
+    "question": "Difference between mandibular and maxillary premolars is that in the mandibular premolars:",
+    "options": {
+      "A": "The buccal and lingual cusps are more prominent",
+      "B": "The lingual cusp is sharper and longer",
+      "C": "The lingual surface rounded and less developed",
+      "D": "The buccal surface is rounded and Less developed"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "be215652-7a51-4c13-89f7-c5e747c322c7",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 16
+    }
+  },
+  {
+    "question": "Direct pulp capping is not done in which of these situations?",
+    "options": {
+      "A": "Mechanical exposure",
+      "B": "No bleeding",
+      "C": "Pinpoint exposure",
+      "D": "Carious exposure with more than 1 mm in size"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "3c053a67-9d94-4e22-b368-e7e3df80fcb9",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 17
+    }
+  },
+  {
+    "question": "Which of the following is an indiction for tonsillectomy –a) Rheumatic feverb) Glomerulonephritisc) Recurrent upper respiratory infectiond) Persistent carrier of diptheria bacilli",
+    "options": {
+      "A": "ab",
+      "B": "cd",
+      "C": "bd",
+      "D": "ac"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "fd315adc-df4b-4a81-895b-6f093eeb71b2",
+      "choice_type": "single",
+      "subject_name": "Pediatrics",
+      "topic_name": "",
+      "original_index": 18
+    }
+  },
+  {
+    "question": "For data of \"GLOBOCAN 2012\" screening examination for carcinoma of lip incidence was measured. Which of the following is measured for data collection worldwide:",
+    "options": {
+      "A": "Age specific only",
+      "B": "Age specific with demographics",
+      "C": "Age specific with gender",
+      "D": "Age specific with growth rate"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "2dead4a7-7dc8-4527-9779-170a5174143e",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 19
+    }
+  },
+  {
+    "question": "A 6–month–old infant presents to the 'diarrhoea clinic' unit with some dehydration. The most likely organism causing diarrhea is –",
+    "options": {
+      "A": "Entamoeba histolytica",
+      "B": "Rotavirus",
+      "C": "Giardia lamblia",
+      "D": "Shigella"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "bf8d5b76-bda5-4221-95ef-d536c00c24ee",
+      "choice_type": "single",
+      "subject_name": "Pediatrics",
+      "topic_name": "",
+      "original_index": 20
+    }
+  },
+  {
+    "question": "The type of strain develop when force is applied perpendicular to surface",
+    "options": {
+      "A": "Compressive strain",
+      "B": "Tensile strain",
+      "C": "Shear stress",
+      "D": "Tensile stress"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "bba807ff-0666-4b77-b626-bff4d7c382ff",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 21
+    }
+  },
+  {
+    "question": "Flow of a material refers to:",
+    "options": {
+      "A": "Continued change of the material under a given load",
+      "B": "The consistency of a material when mixing",
+      "C": "The homogeneity of gypsum products",
+      "D": "Dimensional change of the material during settings"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "809b34a3-21fc-447c-a780-7568741d67e2",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 22
+    }
+  },
+  {
+    "question": "Tonsils developed from:",
+    "options": {
+      "A": "Ventral part of 3rd pouch.",
+      "B": "Ventral part of 2nd pouch.",
+      "C": "Dorsal part of 2nd pouch.",
+      "D": "Ventral part of 3rd pouch."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "8ba2ca7c-9ae4-4771-9e9c-0e44250ca6b5",
+      "choice_type": "single",
+      "subject_name": "Anatomy",
+      "topic_name": "",
+      "original_index": 23
+    }
+  },
+  {
+    "question": "Patient presented with imbalance on walking with eyes closed and has to lift up foot and stomp on ground to walk. The tract involved is:-",
+    "options": {
+      "A": "Spinocerebellar tract",
+      "B": "Dorsal column tract",
+      "C": "Lateral spinothalamic tract",
+      "D": "Vestibulospinal tract"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "a28512ef-dd2c-48f1-9033-95c1d84daf47",
+      "choice_type": "single",
+      "subject_name": "Anatomy",
+      "topic_name": "AIIMS 2018",
+      "original_index": 24
+    }
+  },
+  {
+    "question": "A widow owned an apartment building. Several years ago, a student, in a signed writing, entered a three-year lease agreement with the widow. The student agreed to pay $800 monthly rent for the third-floor apartment in the widow's building. The original three-year term had long since expired, but the student had continued to pay his rent, and the widow continued to accept it. If the widow had chosen to evict the student immediately upon the end of the three-year period, and before she had accepted the next rent check, the student's strongest argument to prevent eviction, if true, would have been that",
+    "options": {
+      "A": "the leasehold contract was void ab initio.",
+      "B": "the widow had not given the student requisitenotice for terminating a periodic tenancy.",
+      "C": "the widow had not given the student requisitenotice for terminating a term of years.",
+      "D": "the terms of the leasehold contract were binding on both parties."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "332aa785-955d-4f79-9b6b-29e93459cc33",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 25
+    }
+  },
+  {
+    "question": "An investor owned a four-story office building located in downtown. The building was old and badly in need of renovation. To finance the improvements, the investor borrowed $125,000 from his friend. As consideration for the loan, the investor executed a promissory note for $125,000 payable to the friend in one year and secured by a mortgage on the building. The mortgage was dated January 1, and was recorded January 2. Thereafter, on February 1, the investor executed a deed absolute on the building and named the friend as grantee. This deed, although absolute in form, was intended only as additional security for the payment of the debt. In order to make judicial foreclosure unnecessary and to eliminate the right to redeem, the investor then delivered the deed to his nephew in escrow with instructions to deliver the deed to the friend if the investor failed to pay his promissory note at maturity. On January 1 of the following year, the investor failed to pay the note when it came due. Thereupon, the nephew, in accordance with the escrow instructions, delivered the investor's deed on the office building to the friend, which the friend promptly and properly recorded. Two weeks later, the investor tendered the $125,000 indebtedness to the friend. When the friend refused to accept it, the investor brought an appropriate action to set aside and cancel the deed absolute and to permit the redemption of the building from the friend. Conversely, the friend counterclaimed to quiet title and argued that the deed absolute was intended as an outright conveyance upon default. The court should enter a judgment that will grant the relief sought by",
+    "options": {
+      "A": "the investor, but only if the investor can establish that the mortgage takes precedence over the deed absolute because it was executed earlier in time.",
+      "B": "the investor, because the deed absolute did not extinguish his right of redemption.",
+      "C": "the friend, because the deed absolute effectuated an outright conveyance that extinguished the redemption interest sought to be retained by the investor.",
+      "D": "the friend, because the investor is estopped to deny the effect of the deed absolute in conjunction with the escrow arrangement."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "986abeb3-1dba-4f0a-990a-ecba29fdfa45",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 704
+    }
+  },
+  {
+    "question": "A writer's latest novel created a debate among critics regarding whether the sexual references and the graphic practices in the book made it obscene. While the publisher was readying the book for distribution, the head of a state commission for morality contacted her to tell her that the book was obscene and that she should collect all copies and turn them over for seizure by the government. He also advised that the commission was putting the book on a list of obscene works that retailers should not handle. She responded that dozens of retailers already had the book for an opening day promotion. The commission seized all of the books from the retailers and destroyed them, without any due process procedural safeguards to the author or the publisher. The author and publisher appealed the case and eventually received a writ of certiorari issued by the U.S. Supreme Court. Will the Court uphold the procedure that was used to declare the book obscene and to restrain its distribution?",
+    "options": {
+      "A": "Yes, if the authorities determine the book to be obscene, then they may seize and prevent its prospective distribution for the protection of the public.",
+      "B": "Yes, the determination of obscenity can be made prior to publication because the local authorities have a right to determine the local \"community morals\" standard.",
+      "C": "No, the state must first give the publisher and author a preliminary hearing before a magistrate to get a determination if the book is obscene.",
+      "D": "No, the state cannot exercise prior restraint over published material because that has a chilling effect on free speech; a full judicial determination, with a criminal trial, is required before there can be a finding of a work being obscene."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "713be920-66b6-4cb4-a1ab-d12968e4ab3f",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1072
+    }
+  },
+  {
+    "question": "An art collector attended a party on March 15. At the party, the art collector was describing his collection to a woman in attendance. When the art collector described a painting by a well-known artist, the woman indicated she might like to buy that painting. The art collector said, \"I'll sell you the painting for $10,000. I'll give you 30 days to decide whether you want the painting. \" On March 25, the art collector wrote to the woman and stated that the offer of March 15 was withdrawn. The woman received the March 25 letter on March 26. On March 27, the woman wrote the art collector the following letter:\"Please be advised that I hereby accept your offer of March 15. \" The art collector received this letter on March28. Thereafter, the art collector and the woman engaged in several telephone discussions. On April 10, the woman, in a telephone conversation, told the art collector that she would pay $15,000 if the painting was delivered on or before April 15. The art collector agreed to deliver the painting for $15,000. On April 15, the art collector tendered the painting, but the woman refused to pay more than $10,000. If the art collector asserts a claim against the woman for breach of contract, which of the following is the most accurate statement?",
+    "options": {
+      "A": "The art collector is obligated to sell the woman the painting for $10,000, because the woman, as offeree, had the right to accept the initial offer within the 30-day period.",
+      "B": "Since the art collector, as offeror, had the power to revoke the original offer before acceptance, the woman is obligated under the terms of their April 10 agreement.",
+      "C": "Since the parties entered into a subsequent modification, the woman is obligated to pay the art collector $15,000 for the painting.",
+      "D": "An enforceable contract does not exist between the parties, because of mutual mistake of fact."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "0a5645ad-e227-47ab-8767-765aafc78a7c",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 81
+    }
+  },
+  {
+    "question": "A devastating earthquake struck a foreign country. The earthquake destroyed hundreds of homes and buildings. Thousands of residents were killed, injured, and left homeless by the earthquake. The leader of the foreign country sought the assistance of the United States in providing emergency aid. The President initially wanted to send troops from a west coast military base but learned that they were out on training maneuvers. As a result, the President issued an executive order directing members of a federal agency under the supervision of the Immigration and Naturalization Service, to travel to the foreign country to engage in emergency rescue operations. This federal agency's main function is to patrol the borders to prevent illegal aliens from entering the United States. A member of this federal agency refused to comply with the executive order and assist in the relief effort. He claimed that participating in such operations in a foreign country is beyond the scope of his job responsibilities. He brought suit in federal court challenging the validity of the President's executive order. Assuming the member of the federal agency has adequate standing, the court should rule the executive order",
+    "options": {
+      "A": "valid, because as commander-in-chief, the President has unfettered authority to require federal employees to participate in an international relief effort.",
+      "B": "valid, because employees of an executive agency can be required to perform such emergency functions.",
+      "C": "invalid, because the executive order is beyond the scope of presidential power absent congressional authorization.",
+      "D": "invalid, because the director of the INS, not the President, has the power to issue directives to federal agencies under its supervision."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "5637a6c1-2e86-4cca-ab25-c757b1d4ce8a",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 6
+    }
+  },
+  {
+    "question": "Over the last several years, the economy of a state has substantially changed. The state's economy used to be based solely on heavy industry. However, the state legislature approved legalized gambling within the state. As a consequence, many casinos and new hotels were built and the state's economy boomed. These moves were often induced by the granting by the state of special tax benefits for the construction of new casinos and hotels under state statutes. Recently, however, neighboring states have legalized gambling and offered greater tax incentives to the gaming industry. As a result, many of the casino and hotel owners have begun to leave the state. The unemployment and social welfare benefits the state has had to pay have substantially increased, burdening the remaining casinos, and also making it difficult for the state to lower its taxes to remain competitive with other states. On account of this predicament, the state legislature passed, and the governor duly signed, an emergency bill into law. According to the statute, the state imposed a one cent tax on the playing of any slot machine in any gambling casino. Since virtually all the slot machines required a payment of either a dime, quarter, or dollar, the imposition of this tax required a major costly adaptation on each slot machine to allow for the deposit of the additional one cent tax. Although many casino owners have complained about the tax, their only alternative is to absorb the tax themselves and lose one cent per game. As a consequence of the tax, fewer slot machines are purchased in the state by the casino owners. No manufacturer of slot machines is located in the state. Which of the following constitutional provisions provide the strongest ground to attack the validity of the state tax bill?",
+    "options": {
+      "A": "The commerce clause.",
+      "B": "The equal protection clause of the Fourteenth Amendment.",
+      "C": "The due process clause of the Fourteenth Amendment.",
+      "D": "The privileges and immunities clause of Article IV, Section 2."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "2c68eeaf-ba48-4cf2-8d8b-29705aacd50f",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 587
+    }
+  },
+  {
+    "question": "A home security protection company provided protection services to property owners in the immediate area. The owner of a summer cottage in the area hired the company to provide 24- hour protection during the winter months when his home was unoccupied. According to the security arrangement, the company's uniformed guards would periodically patrol the property and, if necessary, provide an \"armed response\" to any unauthorized individuals who were found trespassing on the property. The company provided security protection to the owner's property for two years. The owner then notified the company that he was planning to sell the cottage. As a result, he requested that the company discontinue its home-protection service, effective immediately. Two weeks later, a burglar broke into the cottage and was ransacking it. As the burglar was exiting from the owner's house carrying a portable television set, he was seen by a security guard working for the company. The security guard, who was driving past the home on security patrol, had not been informed that the owner had discontinued protection services. The security guard suddenly stopped his patrol vehicle and ran toward the burglar shouting, \"Stop! Don't move or I'll shoot!\" Startled, the burglar dropped the television set and began to flee. Believing that the suspected burglar was about to escape, the security guard pulled out his service revolver and fired a bullet at the burglar. The shot struck the burglar in the leg, seriously wounding him. If the burglar asserts a claim against the owner for negligently failing to supervise those providing security services for the owner's property, the burglar will probably",
+    "options": {
+      "A": "prevail, because the burglar was unarmed when he was shot.",
+      "B": "prevail, because the owner knew or had reason to know that the company provided an \"armed response\" to suspected trespassers.",
+      "C": "not prevail, because the owner was not present when the shooting occurred.",
+      "D": "not prevail, because the owner had discontinued protection services from the company when the shooting occurred."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "547ef2e9-951f-402d-9a15-6043078af1c8",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1035
+    }
+  },
+  {
+    "question": "A man was arrested and convicted of publishing paid newspaper advertisements giving information on how to get an abortion in another state and how to find a referral service. A criminal statute made it a crime to disseminate such information. Will the courts uphold the conviction?",
+    "options": {
+      "A": "No, the statute violates the sixth amendment right to privacy.",
+      "B": "No, the statute violates the First Amendment right to publish protected commercial speech.",
+      "C": "Yes, the right to an abortion does not include the right to publicize where to get one.",
+      "D": "Yes, there is no right to publish or disseminate speech that is commercial in nature."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "86057f9f-9a31-4575-9bfd-587c4547e1bd",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1130
+    }
+  },
+  {
+    "question": "On Thursday morning, two plainclothes police officers were shot to death while trying to arrest a bank robber who had just robbed a bank. Following the killings, the police issued an \"all-points-bulletin\" for the arrest of a 40-year-old Caucasian male (height, 6 feet; weight, 150-155 pounds), who had been seen near the location of the bank robbery. On Friday, a security guard at a local department store was walking down Main Street when he noticed a tall, African American man who fit the bank robbery suspect's description in age, height, and weight. The security guard approached the person (and believing him to be the bank robbery suspect), pulled a gun and arrested him. The security guard held the man in custody until the police arrived a short time later. The police officer informed the security guard that he had arrested the wrong person. The man had told the security guard that he was not the man who had committed the bank robbery and shot the police officers. The man was humiliated by the false arrest. If the man asserts a claim for assault against the security guard, he will",
+    "options": {
+      "A": "succeed, if the man saw the security guard pointing the gun at him.",
+      "B": "succeed, if the security guard's mistaken belief was unreasonable.",
+      "C": "not succeed, because the security guard did not intend to injure the man.",
+      "D": "not succeed, because the man did not suffer any injury from the security guard's act."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "11c448dd-8450-47a4-9aaf-df34a6c8d19f",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 725
+    }
+  },
+  {
+    "question": "A state assemblyman made a visit to a foreign country. To protest U. S. foreign policy, the assemblyman and the foreign country's leader issued a joint statement criticizing the United States' involvement in the political affairs of neighboring countries. Following the assemblyman's return to the United States, he was prosecuted under a federal criminal statute making it unlawful for any citizen not specifically authorized by the President to negotiate with a foreign government for the purpose of influencing the foreign government in relation to a dispute with the United States. The law further provides that \"any citizen who knowingly counsels, aids, or abets a foreign government in a dispute with the United States. . , shall, upon conviction. . . be punished by imprisonment for not more than five years or a fine of not more than $10,000, or by both fine and imprisonment. . . . \"Which of the following is the strongest constitutional basis for upholding the validity of the aforementioned federal statute?",
+    "options": {
+      "A": "Federal criminal laws dealing with international affairs need not be as specific as those dealing with domestic affairs.",
+      "B": "Under its enumerated powers, Congress may legislate to preserve the monopoly of the national government over the conduct of U. S. foreign affairs.",
+      "C": "The President's inherent power to negotiate for the U. S. with foreign countries authorizes him to punish citizens who engage in such negotiations without permission, even in the absence of statutory authorization.",
+      "D": "Article I, Section 8 of the Constitution grants Congress concurrent power with the President to regulate external affairs with foreign countries."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "627bc940-94cd-4f35-82ef-0d6275aee540",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1524
+    }
+  },
+  {
+    "question": "Two men were told by the defendant that a medical devices company was now using the old warehouse on the river for storing its supply of defibrillators. Late one night, the two men broke into the warehouse and proceeded to load the large crates of defibrillators onto their truck. As they were leaving, one of the men inadvertently threw his cigarette butt into a refuse pile of old cardboard boxes and papers. Soon afterward, the refuse ignited into a small fire. Although the men had time to douse the fire without any danger to themselves, they did not do so. Instead, they fled. Meanwhile, the fire quickly spread, engulfing the entire warehouse in flames. If the defendant is later charged as a co-conspirator, in all likelihood he would be held responsible as",
+    "options": {
+      "A": "an accessory before the fact.",
+      "B": "a principal in the second degree.",
+      "C": "an accomplice.",
+      "D": "not respbnsible."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "a54001c3-6965-4bfc-af9c-5cd8b4e73877",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 146
+    }
+  },
+  {
+    "question": "A defendant, a 14-year-old male, was tried as an adult for an armed robbery and was convicted. No one had been physically harmed during the robbery. In light of the defendant's lengthy juvenile criminal history, which included violent offenses, and the fact that armed robbery is a crime of violence, he was sentenced to life in prison without the possibility of parole. Did the life-without-parole sentence violate the Eighth Amendment ban on cruel and unusual punishment?",
+    "options": {
+      "A": "No, because a juvenile may be sentenced to life without parole if release would pose a danger to the community.",
+      "B": "No, because the Eighth Amendment does not apply outside the context of capital punishment.",
+      "C": "Yes, because a life-without-parole sentence is not permissible for a juvenile defendant convicted of a nonhomicide offense.",
+      "D": "Yes, because a life-without-parole sentence is not permissible for an adult or juvenile defendant convicted of a nonviolent offense."
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MMLU",
+      "id": "b57fd36c-1d47-4fbe-864a-4c5e5fbeeee5",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 893
+    }
+  },
+  {
+    "question": "At 10:00p. m. onNovember 14, a driver was operating his automobile along Main Street. As the driver was approaching the intersection of Main Street and First Avenue, a motorist, who was driving straight through a red light, suddenly appeared before him. Trying to avoid the motorist, the driver veered his car onto the sidewalk. The car landed in a deep hole in the sidewalk. This hole had been dug by a construction company, which had been repairing a water main break earlier in the day. The construction company had been hired by the local municipal water department. Although the' construction company had erected a warning sign advising pedestrians about the hole, there was no fence or barrier surrounding it. When the driver's car fell into the hole, it ruptured the water main, engulfing the car with water. Within a short time, the driver, unable to escape, drowned in his car, which rapidly filled with water. In a wrongful death action by the driver's estate against the municipal water department, the estate will most probably",
+    "options": {
+      "A": "prevail, because sovereign immunity would not attach to non-delegable duties, which are proprietary in nature.",
+      "B": "prevail, because the city government would be strictly liable for failing to ensure the water main repair work was done properly.",
+      "C": "not prevail, because the municipal water department would not be liable for the negligence of its independent contractor.",
+      "D": "not prevail, because sovereign immunity attaches to functions that are governmental in nature."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "042afba1-334c-413e-be18-cf36513b17e8",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 268
+    }
+  },
+  {
+    "question": "A fifteen year-old boy was arrested for burglary. At a juvenile hearing, there was some circumstantial evidence presented but no direct evidence or eyewitness testimony. The juvenile court judge found the youth guilty and sentenced him to five years in a detention center. The juvenile's lawyer objected that the evidence did not prove guilt beyond a reasonable doubt, but the judge held that such proof was not required in a juvenile proceeding. Will the state's appellate court affirm the ruling of the juvenile court judge?",
+    "options": {
+      "A": "Yes, a juvenile does not get all of the rights enjoyed by adults and proof does not have to be beyond a reasonable doubt.",
+      "B": "No, a juvenile cannot be convicted of a crime in a juvenile proceeding except upon proof beyond a reasonable doubt.",
+      "C": "Yes, the reasonable doubt standard does not in any event rise to a constitutional right under our system in which each state can declare its own constitutional mandates.",
+      "D": "No, a juvenile court proceeding is always followed by a de novo proceeding in adult court in which the reasonable doubt standard is guaranteed."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "86bb4a2a-5d62-44c1-bbba-0147e8c868be",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1184
+    }
+  },
+  {
+    "question": "A newly elected mayor was charged with tax fraud. The prosecutor served a trial subpoena directing the mayor's attorney to produce private bank records that the mayor delivered to the attorney. The attorney refused the request. The prosecutor in a hearing then sought to compel compliance with the subpoena. The court should",
+    "options": {
+      "A": "compel production, because it would not violate the attorney-client privilege.",
+      "B": "compel production, because there is no element of confidentiality.",
+      "C": "not compel production, because it would violate the mayor's privilege against self- incrimination.",
+      "D": "not compel production, because it would violate the attorney-client privilege."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "7196d437-a9d8-49b0-9fee-fe546b4a246b",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1321
+    }
+  },
+  {
+    "question": "As a result of the increasing northward movement of the population from a nearby city, a town enacted a zoning ordinance restricting present and future land use in the town to single family dwellings, except in the downtown commercial shopping area, and except for a small area in which multifamily dwellings not over 40 feet in height were permitted. In addition, all new construction or exterior modifications of existing buildings required prior approval of an aesthetic control board. The zoning ordinance defined the term \"family\" in the context of single family dwellings to mean only one or more persons related by marriage, blood, or adoption, thereby excluding unrelated, unmarried persons from residing in a single residence unit. The enabling legislation contained the following provision:\"This enactment is necessary to preserve the physical and social homogeneity of this community, and preserve and protect the quality of life of its citizens. \"A town resident owns a single family residence with five bedrooms. Prior to the enactment of the zoning ordinance, the resident leased the premises on a month-to-month basis to a boyfriend and girlfriend and three other male law students. The five individuals are all unmarried and attend the nearby law school. The resident now brings suit to enjoin enforcement of the ordinance against himself. Which of the following is the most accurate statement regarding the constitutionality of the zoning ordinance provision that prohibits unrelated, unmarried persons from residing in a single family residence?",
+    "options": {
+      "A": "The zoning ordinance provision would be declared unconstitutional as violative of the due process clause of the Fourteenth Amendment.",
+      "B": "The zoning ordinance would be declared unconstitutional as violative of the equal protection clause of the Fourteenth Amendment.",
+      "C": "The zoning ordinance provision would be declared unconstitutional as violative of the resident's rights under the contract clause.",
+      "D": "The zoning ordinance provision would be upheld as constitutional under the state's police power."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "25475b5b-e1f1-46ec-8f5c-d56e946c3489",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 646
+    }
+  },
+  {
+    "question": "A university fired its head basketball coach after a series of losing seasons. The university contacted a coach who had a strong reputation as a person who cottld \"turn around\" a program and produce winning teams. The university offered the coach an annual salary of $250,000 to coach its basketball team, but the coach declined the offer, hoping to find another institution that would pay him a higher salary. Thereafter, a wealthy booster, who was interested in enhancing the university's basketball program, contacted the coach and told him that if he would sign a coaching contract with the university, the booster would pay him $50,000 a year as an unpublished supplement to his salary. Furthermore, the booster promised to contribute $5,000 to the university athletic fund every time the basketball team won a game under the coach's tutelage. The coach thereupon signed a three-year contract as the head basketball coach at the university at an annual salary of $250,000. During the coach's first year as coach, the university basketball team compiled a record of 18 wins and 12 losses. The booster, however, refused to pay anything to either the coach or the university athletic fund. Assume that the agreement between the coach and the booster does not violate any rule of the university or of any intercollegiate athletic association. The university brought suit against the booster to recover $90,000 for breach of his promise to pay $5,000 into the athletic fund for each game won by the basketball team. Is it likely that the university will prevail in this contract action?",
+    "options": {
+      "A": "Yes, because the university is an intended third-party beneficiary of the contract between the coach and the booster.",
+      "B": "Yes, because the university detrimentally relied on the booster's promise by hiring the coach.",
+      "C": "No, because the booster's promise was, in essence, an illegal form of procurement and void as against public policy.",
+      "D": "No, because the booster's promise was made to the coach rather than to the university and, therefore, was not a charitable subscription."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "685768eb-2fc4-4583-9bde-7060a4f8b6e4",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 732
+    }
+  },
+  {
+    "question": "A contractor agreed with a city government to build it a bridge. The contractor was guilty of undue delay in getting the bridge construction finished. The contract had a liquidated damages clause that provided for a deduction from the contract price for each day of delay in completing the bridge. The formula for the deductions from the contract price was based on how much traffic flow was turned away. The city tried to deduct the damages from the contract price. The contractor, however, pointed out that the city had not yet connected a road to the bridge so that there was no traffic flow and hence no damage to the city. Will the court uphold the liquidated damages clause in favor of the city?",
+    "options": {
+      "A": "No, because the city's failure to perform has frustrated the purpose of the liquidated damages clause, making liquidated damages in this case unnecessary due to no damages suffered.",
+      "B": "Yes, because the contract provision for liquidated damages has been breached and the city had no obligation to connect a road.",
+      "C": "Yes, because the bridge delays caused the city to delay finishing the road, thereby creating the need to enforce the provision for liquidated damages.",
+      "D": "No, because the city breached the contract by not connecting a road to the bridge."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "5fd5c043-b960-4864-a66f-43804c99c413",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 940
+    }
+  },
+  {
+    "question": "A landlord was the owner of a vacant warehouse. On May 1, the landlord leased the warehouse to the tenant for a term of five years with a renewable option. The leasehold agreement provided in part:\"The tenant hereby acknowledges that certain areas of the leased premises are in a state of disrepair and unsafe for the conduct of business. Nonetheless, the tenant agrees to assume full responsibility for the necessary repairs. Furthermore, the tenant agrees to indemnify the landlord for any loss resulting from the condition of the said premises. \"Under the terms of the lease, the landlord delivered possession of the warehouse to the tenant on May 2. On that date, an employee of the tenant was working in the warehouse. He was moving some equipment into the warehouse when a section of the ceiling collapsed and fell on him. At the time the landlord and the tenant entered into their lease, only the landlord was aware that the ceiling was defective and needed to be repaired. Although the landlord could have remedied the defect before delivering possession to the tenant, the landlord didn't perform any repair work on the ceiling. The employee initiated suit against the landlord to recover damages resulting from his injury. There are no applicable statutes. If the employee prevails it will be because a",
+    "options": {
+      "A": "landowner is strictly liable for injuries occurring on his property.",
+      "B": "landowner's duty of care to third parties cannot be shifted to a tenant by the tenns of a lease.",
+      "C": "tenant cannot waive the implied warranty of commercial habitability.",
+      "D": "covenant to indemnify by a tenant in favor of a land owner is against public policy."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "9e3858ce-a5f7-4e0f-90a3-b7066a68aa51",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1043
+    }
+  },
+  {
+    "question": "A construction company, in preparing its bid for the construction of a new hospital, received a quotation of $120,000 from a subcontractor who offered to do the kitchen work in the new hospital. This bid was $30,000 lower than the construction company's next lowest bid for the kitchen work. As a result, the construction company lowered its bid by $20,000 before submitting it to the hospital board. After the construction company was awarded the construction bid and had accepted the subcontractor's offer, the subcontractor discovered that in his preparation of the quotation, he had overlooked some subsidiary kitchen installments required by the plans. Immediately thereafter, the subcontractor brought suit for rescission of the contract. It should",
+    "options": {
+      "A": "prevail, because of the unilateral mistake.",
+      "B": "prevail, because the mistake was an essential element of the bargain.",
+      "C": "not prevail, unless the construction company knew or should have known of the subcontractor s error.",
+      "D": "not prevail, because the computation mistake was antecedent to acceptance of the bid."
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MMLU",
+      "id": "24e6b91a-7e81-4f7a-86a8-25a052fcb44b",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1188
+    }
+  },
+  {
+    "question": "A defendant and his friend were drinking heavily one night at the friend's house. They both became intoxicated. After several hours, both the friend and the defendant passed out. In the middle of the night, the defendant awoke with a headache. He went down to the kitchen and poured himself another shot of whiskey. The defendant also felt hungry and decided to make himself some eggs. After fixing his snack, he inadvertently forgot to turn off the stove. A gas leak occurred, causing a fire that burned down the house. If the defendant is charged with arson, he will be found",
+    "options": {
+      "A": "guilty, because the defendant was reckless.",
+      "B": "guilty, because the defendant was criminally negligent.",
+      "C": "not guilty, because the defendant did not commit a felony.",
+      "D": "not guilty, because arson requires the presence of malice."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "e0b0b539-1243-4bea-aa72-39bae38ea86b",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 74
+    }
+  },
+  {
+    "question": "A defendant and a classmate were students at a state college. They were spending a leisurely afternoon listening to music in the defendant's dorm room. They had just consumed a six-pack of beer when the classmate asked the defendant if there was anything else to drink. The defendant indicated there wasn't and suggested that his classmate drive to the store and buy another six-pack. The classmate told the defendant that his car wasn't working and asked the defendant if he could borrow his. The defendant assented and gave his classmate the keys to his car. The defendant knew that the classmate was drunk when he lent him his car. The classmate was driving to the store at an excessive rate of speed. As he approached an intersection, he was traveling at 70 M. PJ-I. When he came to the intersection, the light turned red. The classmate, who made no effort to stop in time, drove through the red light and collided with another car. The driver of the other car, who had entered the intersection with a green light, was killed in the accident. In the event that the defendant can be convicted of manslaughter, it will most likely be upon the basis of",
+    "options": {
+      "A": "responsibility for the accident as an accomplice.",
+      "B": "recklessness in lending his car to his classmate.",
+      "C": "joint venture in lending his car to his classmate for a common purpose.",
+      "D": "vicarious liability for the conduct of his classmate."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "1e58126e-5b5f-4908-89fa-da3f80d9b83b",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1243
+    }
+  },
+  {
+    "question": "A state statute provides: \"Whenever a person knows or should know that he (or she) is being arrested by a police officer, it is the duty of such person to refrain from using force or any weapon in resisting arrest. \" Violation of the statute is made punishable by fine and/or imprisonment. One morning, there was a bank robbery in the state. That afternoon, a police officer arrested a suspect who he believed was involved in the crime. However, the police officer and the suspect have given different accounts concerning what happened next. According to the police officer, after the suspect was apprehended, he resisted arrest and hit the police officer in the mouth with his fist. The police officer, who was momentarily stunned, pulled out his nightstick and struck the suspect over the head with it. On the other hand, the suspect claimed that after he was arrested, he cursed at the policeman, whereupon the police officer began hitting the suspect with his nightstick. To avoid being hit again, the suspect hit the police officer with his fist, knocking him down. The suspect was charged with assault. The suspect should be found",
+    "options": {
+      "A": "not guilty, if the arrest was unlawful without probable cause and the jury believes the suspect's account.",
+      "B": "not guilty, if the arrest was lawful, provided that the jury believes the suspect's account.",
+      "C": "guilty, if the arrest was lawful, regardless which account the jury believes.",
+      "D": "guilty, if the arrest was unlawful, regardless which account the jury believes."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "a8f942c3-76ac-4ef3-8b63-e778da5792dc",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1
+    }
+  },
+  {
+    "question": "A teenager is the star player on his high school basketball team. The high school is a public school, and the school has a policy that all student athletes are required to sign an authorization form by which they consent to undergo random drug testing. All the basketball players on the school team, except the teenager, signed the authorization. In the third game of the season, the team beat their archrival, and the teenager scored a record high 69 points. In the locker room following the game, the basketball coach approached the teenager and requested that he provide a urine sample for a random drug test. The teenager refused. He had smoked some marijuana the previous day and was afraid that a positive test result might jeopardize his being awarded a basketball scholarship to college. Thereafter, the teenager was suspended from the team for failing to comply with the coach's request. The coach later admitted that he did not have any individualized suspicion that the teenager was under the influence of drugs. The teenager has filed a motion challenging the suspension and seeking reinstatement on the basketball team. The court will most likely rule in favor of",
+    "options": {
+      "A": "the school, because a urine sample does not constitute a search under the Fourth Amendment.",
+      "B": "the school, because drug testing is not an intrusion on his Fourth Amendment right of privacy.",
+      "C": "the student, because he didn't consent to the drug test.",
+      "D": "the student, because the coach admitted that he did not have any individualized suspicion that the student was under the influence of drugs."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "7086becf-3572-43c3-82b0-a97e6a41d01e",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 907
+    }
+  },
+  {
+    "question": "A tenant's four-year old daughter fell from a second-floor outdoor stairway at their apartment building. The tenant sued the landlord for negligent construction and maintenance of the stairway, steps, and railing. The stairs were built on a dangerously steep incline, the steps were loose, and the railing was insufficient to keep the baby from falling over the side. The jury found that the landlord was negligent in the design and construction of the stairs and in failing to maintain the stairs, steps and railing in a safe condition. The landlord appealed on the basis of immunity from suit and the failure of the tenant to assert any exception to landlord immunity. Under the modern rule, will the appellate court affirm the jury's verdict against the landlord?",
+    "options": {
+      "A": "Yes, the landlord is strictly liable for the abnormally dangerous condition that he knowingly allowed to exist.",
+      "B": "Yes, the modern rule is that the landlord, like anyone else, has a duty to use due care to protect its tenants and others from injury caused by a foreseeable risk of harm.",
+      "C": "No, because the landlord still enjoys the common law protection of the doctrine of \"lessee beware,\" and residential property is generally still rented \"as is.\"",
+      "D": "No, because a landlord cannot be held liable for negligent design or maintenance, even under the modern rule."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "1f63a0e4-4a50-43f9-90d3-5581aba16810",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 714
+    }
+  }
+]

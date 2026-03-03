@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Vaccine for caries is based on which immunoglobulin",
+    "options": {
+      "A": "IgG",
+      "B": "IgA",
+      "C": "IgE",
+      "D": "IgM"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "0c32cd85-9912-4116-86ce-d65b19a77be9",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 0
+    }
+  },
+  {
+    "question": "Central value of a set of 180 values can be obtained by",
+    "options": {
+      "A": "2nd tertile",
+      "B": "90th percentile",
+      "C": "2nd quartile",
+      "D": "9th decile"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "764c0c80-b716-45a1-9fe7-b13588090401",
+      "choice_type": "single",
+      "subject_name": "Social & Preventive Medicine",
+      "topic_name": "",
+      "original_index": 1
+    }
+  },
+  {
+    "question": "11 yr female in the school brought to principle by teacher that she is always crying unattentive not taking interest in any activity. On fuher investigation the girl told that she was inappropriately touched by her uncle at private pas at her home. Principle inform to whom ?",
+    "options": {
+      "A": "Child welfare",
+      "B": "Parents",
+      "C": "Police",
+      "D": "Magistrate"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "0fd8b1cf-309f-4bcd-b1d6-d6a1f07d440f",
+      "choice_type": "single",
+      "subject_name": "Forensic Medicine",
+      "topic_name": "AIIMS 2019",
+      "original_index": 2
+    }
+  },
+  {
+    "question": "Poisoning by which of these elements causes blind staggers alkali disease in livestock?",
+    "options": {
+      "A": "Magnesium",
+      "B": "Manganese",
+      "C": "Selenium",
+      "D": "Molybdenum"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "c27e7c0b-7d26-4ca7-b537-c44b71114d55",
+      "choice_type": "single",
+      "subject_name": "Forensic Medicine",
+      "topic_name": "",
+      "original_index": 3
+    }
+  },
+  {
+    "question": "A patient with a history of diabetes for one year with no other complications should have an ophthalmic examination?",
+    "options": {
+      "A": "As early as feasible",
+      "B": "After 5 years",
+      "C": "After 10 years",
+      "D": "Only after visual symptoms level"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "18c1a5f9-d998-414e-bb9c-991191c10710",
+      "choice_type": "single",
+      "subject_name": "Ophthalmology",
+      "topic_name": "",
+      "original_index": 4
+    }
+  },
+  {
+    "question": "In assessing infant deaths, Ploucquet's test involves:",
+    "options": {
+      "A": "Change in specific gravity of lungs",
+      "B": "Presence of air in stomach and duodenum",
+      "C": "Change in paial weight of lungs",
+      "D": "Air in middle ear"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "070ff387-f612-43ac-a23e-ab3e8ed192b4",
+      "choice_type": "single",
+      "subject_name": "Forensic Medicine",
+      "topic_name": "",
+      "original_index": 5
+    }
+  },
+  {
+    "question": "A patient comes to a dentist with decayed mandibular 1st molar which involves the mesiobuccal and distobuccal cusp. The restoration of choice is:",
+    "options": {
+      "A": "Intermediate restoration",
+      "B": "Composite",
+      "C": "Cast metal",
+      "D": "GIC"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "ecc4eaa4-4fcd-4c62-9c73-2a047b98cdc5",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 6
+    }
+  },
+  {
+    "question": "Condensation reaction occurs in",
+    "options": {
+      "A": "Agar",
+      "B": "Alginate",
+      "C": "Polysulfide",
+      "D": "ZOE"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "98035f50-53b3-47c8-b340-392237162fb2",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 7
+    }
+  },
+  {
+    "question": "A 40 years old female currently on a drug for psychiatric illness and hypeension presents with NYHA class III hea failure with dyspnea, pedal edema and K+ levels of 5.5 mEq/L and creatinine 2.5 mg%. Which of the following drug is best avoided?",
+    "options": {
+      "A": "Carvedilol",
+      "B": "Enalapril",
+      "C": "Spironolactone",
+      "D": "Digoxin"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "2c7e29e5-6824-4217-af1e-7c5b40d57ea5",
+      "choice_type": "single",
+      "subject_name": "Medicine",
+      "topic_name": "",
+      "original_index": 8
+    }
+  },
+  {
+    "question": "Which of these amino acids does not enter the Krebs cycle by forming Acetyl-CoA pyruvate?",
+    "options": {
+      "A": "Glycine",
+      "B": "Tyrosine",
+      "C": "Hydroxyprolinc",
+      "D": "Alanine"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "3728d7be-8279-4b79-a826-e568441ff21a",
+      "choice_type": "single",
+      "subject_name": "Biochemistry",
+      "topic_name": "",
+      "original_index": 9
+    }
+  },
+  {
+    "question": "Which of the following anticoagulant is used for electrolyte estimation?",
+    "options": {
+      "A": "EDTA",
+      "B": "Citrate",
+      "C": "Sodium fluoride",
+      "D": "Lithium heparin"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "13e7b27f-6f0c-4366-955b-16836ed6f6cd",
+      "choice_type": "single",
+      "subject_name": "Pathology",
+      "topic_name": "",
+      "original_index": 10
+    }
+  },
+  {
+    "question": "I.V. diazepam causes following in a patient on dental chair:",
+    "options": {
+      "A": "Tinel's sign",
+      "B": "Virrel's sign",
+      "C": "Batters sign",
+      "D": "Bell's sign"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "91324f8c-5091-4fae-849c-c4477a571de8",
+      "choice_type": "single",
+      "subject_name": "Surgery",
+      "topic_name": "",
+      "original_index": 11
+    }
+  },
+  {
+    "question": "A study finds no significant association between two variables but truly there exists a difference. What type of error is this?",
+    "options": {
+      "A": "Type I error",
+      "B": "Type II error",
+      "C": "Random error",
+      "D": "Systematic error"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "0113aaf1-61d3-4d61-a9c7-b5b46e51e7e8",
+      "choice_type": "single",
+      "subject_name": "Social & Preventive Medicine",
+      "topic_name": "",
+      "original_index": 12
+    }
+  },
+  {
+    "question": "Habit developed under psychological cause is:",
+    "options": {
+      "A": "Non Compulsive habits.",
+      "B": "Unintentional habits.",
+      "C": "Useful habits.",
+      "D": "Intentional habits."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "2ba3c5df-e02c-4031-9529-3315afaac0d8",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 13
+    }
+  },
+  {
+    "question": "Which of the following is used for etching porcelain?",
+    "options": {
+      "A": "1.23% HF",
+      "B": "4% HF",
+      "C": "9.6% HF",
+      "D": "37% HF"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "e3840b78-8e45-4c14-83da-2a1ed7178d7e",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 14
+    }
+  },
+  {
+    "question": "Which of the following abnormalities is commonly seen in a fetus with congenital CMV infection:",
+    "options": {
+      "A": "Colitis",
+      "B": "Myocarditis",
+      "C": "Blood dyscrasias",
+      "D": "Pulmonary cyst"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "2fad53ed-ad7b-4194-8316-7fd39b1089a4",
+      "choice_type": "single",
+      "subject_name": "Gynaecology & Obstetrics",
+      "topic_name": "",
+      "original_index": 15
+    }
+  },
+  {
+    "question": "Macrocephaly is seen in which of the following syndromes ?",
+    "options": {
+      "A": "Metachromatic leucodystrophy",
+      "B": "Adrenoleukodystrophy",
+      "C": "Canavan's disease",
+      "D": "Krabbe's disease"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "062bbde6-1097-4f2f-a08e-1b055158bbc1",
+      "choice_type": "single",
+      "subject_name": "Pediatrics",
+      "topic_name": "",
+      "original_index": 16
+    }
+  },
+  {
+    "question": "If the distribution of intra-ocular pressure (IOP) seen in 100 glaucoma patients has an average 30 mm with a SD of 1.0, what is the lower limit of the average IOP that can be expected 95% of times?",
+    "options": {
+      "A": "26",
+      "B": "28",
+      "C": "32",
+      "D": "259"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "484de2a0-f89b-4e79-88c3-11cb2da4fcde",
+      "choice_type": "single",
+      "subject_name": "Social & Preventive Medicine",
+      "topic_name": "",
+      "original_index": 17
+    }
+  },
+  {
+    "question": "Calcification in enamel starts at :",
+    "options": {
+      "A": "Enamel matrix",
+      "B": "Root",
+      "C": "CEJ",
+      "D": "DEJ"
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "60f690e1-518f-42c4-9ddb-acbf65c1731e",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 18
+    }
+  },
+  {
+    "question": "The action of digastric muscle is:",
+    "options": {
+      "A": "Depression of mandible",
+      "B": "Protrusion of mandible",
+      "C": "Side-to-side movement of mandible",
+      "D": "Depressing the floor of the mouth"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "18a9bc7e-60fc-43e9-a7b0-7549ec785817",
+      "choice_type": "single",
+      "subject_name": "Anatomy",
+      "topic_name": "",
+      "original_index": 19
+    }
+  },
+  {
+    "question": "The best radiographic view of temporomandibular joint\nis given by:",
+    "options": {
+      "A": "Transorbital view",
+      "B": "Reverse Towne's view",
+      "C": "Transpharyngeal",
+      "D": "Panorex"
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "b333f3d2-f0c1-4af8-add4-2f13f2a99643",
+      "choice_type": "single",
+      "subject_name": "Radiology",
+      "topic_name": "",
+      "original_index": 20
+    }
+  },
+  {
+    "question": "Case control study was done regarding breast cancer & risk factors & odds ratio was obtained. Which of the following are causative factors ?ParameterCaseControlORAge at menarche>12171423291.04Menopause177124081.53OCP use93511051.02Smoking932140.97Family history5135021.10BMI>27.51654930.53Breastfeeding94225140.56Multiparity(2)277833661.05",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "3",
+      "D": "2"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "9220447e-0ac6-41b7-b22d-07d1340b3641",
+      "choice_type": "single",
+      "subject_name": "Social & Preventive Medicine",
+      "topic_name": "",
+      "original_index": 21
+    }
+  },
+  {
+    "question": "Undifferentiated mesenchymal cells found in pulp are:",
+    "options": {
+      "A": "Multipotent",
+      "B": "Totipotent",
+      "C": "Polypotent",
+      "D": "Monopotent"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "4af61718-923a-4242-8090-532d83bed044",
+      "choice_type": "single",
+      "subject_name": "Dental",
+      "topic_name": "",
+      "original_index": 22
+    }
+  },
+  {
+    "question": "Scaphocephaly is caused by premature fusion of:",
+    "options": {
+      "A": "Corona] suture",
+      "B": "Sagittal suture",
+      "C": "Metopic suture",
+      "D": "Lambdoid suture"
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "b9430ce6-2167-41f1-86a6-5d8c3e143d86",
+      "choice_type": "single",
+      "subject_name": "Pathology",
+      "topic_name": "",
+      "original_index": 23
+    }
+  },
+  {
+    "question": "Most difficult maxillary tooth to anaesthetize by infiltration is :",
+    "options": {
+      "A": "1st molar",
+      "B": "1st premolar",
+      "C": "Canine",
+      "D": "3rd molar"
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MedMCQA",
+      "id": "ac920278-1568-4a55-a4f2-114832edb868",
+      "choice_type": "single",
+      "subject_name": "Surgery",
+      "topic_name": "",
+      "original_index": 24
+    }
+  },
+  {
+    "question": "A defendant is on trial for false pretenses. He is charged with selling worthless stock in a dummy corporation to unwitting investors. The defendant is alleged to have masterminded a scheme wherein he set up a nonexistent corporation that never conducted business. The victims were sent prospectuses containing false financial data, which induced them to purchase stock in the phony corporation. At trial, the prosecution seeks to introduce into evidence proof that the defendant had set up 10 other so-called dummy corporations that never existed. This evidence is",
+    "options": {
+      "A": "admissible, to show defendant's character trait for dishonesty.",
+      "B": "admissible, to show his intent to defraud.",
+      "C": "inadmissible, because character cannot be proved by specific instances of misconduct.",
+      "D": "inadmissible, because the evidence is not relevant."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "4877e2de-1764-482f-86d6-5ddfd29527f4",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 411
+    }
+  },
+  {
+    "question": "A businessman living was an avid baseball fan who frequently traveled to a casino and placed wagers on baseball games. One October, his beloved baseball team was playing in the playoffs and he wanted to place a large bet on his team. He told one of his employees that he wanted to bet $10,000 on his team to win the championship, but that he did not have the time to travel to the casino to place the bet. He then told his employee that he wanted the employee to travel to the casino and place the bet for him. The businessman and the employee agreed that the employee would travel to the casino, place a $10,000 bet for the businessman and then immediately return. In exchange, the employee would be paid $500. The parties reduced this agreement to writing. After the agreement was signed, the businessman handed the employee $10,000 and a round-trip airline ticket. The businessman then told the employee that he would be paid $500 after the employee returned. The employee arrived the next day and immediately went to the casino. There he noticed that the marquis in the parking lot was unlit and covered in a banner that read, \"Casino Temporarily Closed Due to Renovations. \" Unable to reach the businessman by telephone, the employee placed the bet at another gaming establishment located next door to the casino. The following morning, the employee flew back and gave the betting receipt to the businessman. When the businessman saw that the bet had been made at another gaming establishment, he angrily told the employee, \"I purposely directed you to wager that $10,000 at the casino. Since you failed to follow my instructions, the deal's off. \" As a result, the businessman refused to pay the employee the $500. If the employee initiates suit for breach of contract, the court will most likely determine that placing the $10,000 wager at the other gaming establishment, rather than at the casino, constituted a",
+    "options": {
+      "A": "breach of contract.",
+      "B": "modification.",
+      "C": "constructive condition precedent that was substantially performed.",
+      "D": "discharge by impossibility."
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MMLU",
+      "id": "b2078c5b-07dd-4f9a-ab59-c98b3ada7b31",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1327
+    }
+  },
+  {
+    "question": "A landowner, being owner in fee simple of a farm conveyed the property by warranty deed to an investor. The investor gave a farmer a mortgage on the farm to secure a loan from the farmer to the investor in the amount of $50,000. The mortgage was recorded immediately. Two years later, the investor conveyed the farm to his friend by quitclaim deed. According to the deed instrument, the friend \"assumed the mortgage. \" The investor then defaulted on the mortgage, and the farmer brought an in personam action against the friend to recover the amount of the mortgage due. The farmer will most likely",
+    "options": {
+      "A": "prevail, because the friend acquired title to the farm by quitclaim deed.",
+      "B": "prevail, because the farmer was a third-party beneficiary under the conveyance between the investor and the friend.",
+      "C": "not prevail, because the conveyance between the investor and the friend did not effectuate a delegation of duties.",
+      "D": "not prevail, unless the land was subject to the mortgage."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "2479eb61-0ff0-43a8-8159-bea9c6ff42ca",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 929
+    }
+  },
+  {
+    "question": "A woman owned land in fee simple absolute. The woman conveyed the land to a friend \"for life,\" and when the friend died the land was to go to the woman's neighbor \"and her heirs.\" The neighbor died and in her duly probated will devised her entire estate to a local charity. If she had died intestate, her daughter would have been her only heir. One year after the neighbor died, her daughter executed a quitclaim deed conveying any interest she might have in the land to the woman's friend. The common law Rule Against Perpetuities is unmodified in the jurisdiction. There are no other applicable statutes. Who has what interest in the land?",
+    "options": {
+      "A": "The friend has a fee simple absolute, because his life estate merged with the remainder conveyed to him by the daughter.",
+      "B": "The friend has a life estate and the charity has a vested remainder, because the neighbor's interest was devisable.",
+      "C": "The friend has a life estate and the daughter has a vested remainder, because the deed from the woman created an interest in the neighbor's heirs.",
+      "D": "The friend has a life estate and the woman has a reversion, because the neighbor's remainder was void under the Rule Against Perpetuities."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "146d9826-9073-4267-9364-31cc7a402592",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 223
+    }
+  },
+  {
+    "question": "An indigent man was suffering from a chronic asthmatic and bronchial illness. The man redomiciled to a new state and shortly thereafter suffered a severe respiratory attack and was sent by his attending physician to a nonprofit private community hospital. Pursuant to a state statute governing medical care for indigents, the hospital notified county officials that it had in its hospital an indigent who might qualif' for county care and requested that the man be transferred to the county's public hospital facility. In accordance with the approved procedures, the private hospital claimed reimbursement from the county in the amount of $1,069 for the care and services it had provided. Under the relevant state statute:\"Individual county governments are charged with the mandatory duty of providing necessary hospital and medical care for their indigent sick. In order to qualif' for such hospital and medical care, an indigent shall be resident of the county for the preceding 12 months in order to be eligible for free non-emergency medical care. \"As a consequence, the county refused to admit the man to its public hospital or to reimburse the private hospital because the man had not been a resident of the county for the preceding year. In an action in federal court against the county challenging the constitutionality of the residency requirement for providing free medical care for indigents, the court will most likely declare the statute",
+    "options": {
+      "A": "constitutional, because the statute promotes a compelling state interest.",
+      "B": "constitutional, because the statute is a proper exercise of state action.",
+      "C": "constitutional, because the statute is within the state's police power to regulate the health, safety, and welfare of its citizens.",
+      "D": "unconstitutional, because it violates the equal protection clause of the Fourteenth Amendment."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "55cddb02-7af4-41bf-aab7-525575dcdcf7",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1442
+    }
+  },
+  {
+    "question": "Proposed legislation was offered to a state legislature that would reorganize the state police. The bill created a great deal of controversy, both in and outside the state government. Several leaders of the minority party in the legislature decided to oppose the legislation. One member of the minority party disagreed with his party's opposition to the bill and publicly announced his support for the legislation. The minority party leaders called a caucus to discuss and determine their legislative strategy for floor debate on the bill. When the disagreeing member appeared at the door of the caucus room, he was denied admission because of his anti-party stance. He was also informed that he would be removed from all of his committee assignments. During the caucus, the party members discussed other means of disciplining the member for his party insubordination. It was suggested that they issue a press release in which the party would publicly castigate him for his actions. The leader of the party said that \"the member is a cutthroat politician who is only looking out for where his next buck will come from. \"Which of the following constitutional provisions would give the ousted member his best grounds for challenging his exclusion from the party caucus?",
+    "options": {
+      "A": "The equal protection clause of the Fourteenth Amendment.",
+      "B": "The right of assembly as guaranteed by the First Amendment.",
+      "C": "The speech and debate clause.",
+      "D": "The due process clause of the Fourteenth Amendment."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "18c83c0d-9a4c-4aca-ae5c-7e4aa08f4e5d",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 330
+    }
+  },
+  {
+    "question": "A plaintiff alleges in a lawsuit against a store that he purchased a hot dog with chili that gave him food poisoning and caused him excruciating pain. The store offers into evidence certified copies of court proceedings revealing that the plaintiff has filed three similar lawsuits in the last 18 months against other convenience stores, claiming food poisoning resulting from the purchase of food from those stores. These copies should be ruled",
+    "options": {
+      "A": "inadmissible, because of the best evidence rule.",
+      "B": "inadmissible, because they are irrelevant to the present claim.",
+      "C": "inadmissible, because there is the danger of undue prejudice to the plaintiff, which outweighs the probative value of the evidence.",
+      "D": "admissible, because they establish a pattern of similar actions."
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MMLU",
+      "id": "97780bb1-5e58-49e1-8e15-f57460c1414b",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 431
+    }
+  },
+  {
+    "question": "Husband and wife conveyed a part of their inherited family farm to their niece for consideration, but substantially below market value. They retained a reverter back to themselves, however, as follows: \"RESERVATION in favor of the Grantors, their heirs and assigns, an automatic reverter, should the property conveyed herein ever be mortgaged or encumbered within the life time of either Grantor.\" After husband died, the niece mortgaged the property. Can the surviving wife enforce the automatic reverter putting title back in herself?",
+    "options": {
+      "A": "No, this is an unreasonable restraint on alienation.",
+      "B": "No, an automatic reverter is unenforceable.",
+      "C": "Yes, the provision can be enforced because the grantors and the grantee were blood relatives in pari mutual.",
+      "D": "Yes, the provision is enforceable because it is generally considered to be a reasonable restraint on alienation."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "4f1d48d7-3c56-4e2a-869f-fa9fb7626a23",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 327
+    }
+  },
+  {
+    "question": "A widow was the owner in fee simple of an apartment building. The widow drafted a will by which she devised the apartment building to her granddaughter with residue to her friend and her assistant. One year later, the granddaughter died intestate and was survived by her son who was her sole heir at law. This jurisdiction has the following statute in effect:\"If a devisee of a grandparent or lineal descendant of a grandparent dies at the time of execution of the will or fails to survive the testator, the issue of the deceased person shall take the decedent's share under the will. \"The widow then died and her will was admitted to probate. A dispute arose among the friend, the assistant, and the son regarding ownership of the apartment building. Is the son entitled to any share or interest in the apartment building?",
+    "options": {
+      "A": "Yes, because under the anti-lapse statute, the granddaughter's interest passes to her son.",
+      "B": "Yes, because rules relating to lapse of class gifts do not apply to specific devises.",
+      "C": "No, because intestate succession is inapplicable to devolution of title to specific devisees.",
+      "D": "No, because the granddaughter predeceased the widow, title to the apartment building passes to the friend and assistant under the residuary clause of the will."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "9531f195-d0a3-40bf-bf71-00ab6b896979",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 818
+    }
+  },
+  {
+    "question": "A female employee was fired as an executive assistant at a time when she was seven months pregnant. She brought a Title VII civil rights action in federal court for gender discrimination against the employer. At trial, a former co-worker of the woman was not allowed to testify that she heard the human relations manager saying in an informal meeting that the plaintiff and her predecessor were both fired due to what the manager described as \"pregnancy complications.\" The proposed witness had been a vice-president of the company and a close adviser to the president. Without the benefit of that vital testimony, the jury entered a verdict for the defendant employer. On appeal, the plaintiff argued that the testimony should have been allowed and that it was not hearsay under the federal rules. Will the court likely grant the appeal, and order a new trial?",
+    "options": {
+      "A": "No, because the statement is clearly hearsay with no exception to the hearsay rule being applicable.",
+      "B": "No, because it was based on things that the co-worker heard from others, making double-hearsay that is never admissible.",
+      "C": "Yes, because that kind of testimony is reliable and not excludable as hearsay.",
+      "D": "Yes, because it was admissible under the \"spontaneous utterance\" exception to the hearsay rules."
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MMLU",
+      "id": "09ae9558-a370-4c38-b889-5622da7099d0",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 260
+    }
+  },
+  {
+    "question": "A state university was the scene of campus protests against nuclear weapons. A group of students painted purple a statue of the university's founder in protest to the university's federally subsidized nuclear weapon experimental studies. The leader of this group of students was a first-year student from a neighboring state who established residency in the state after beginning classes. The group leader had been the recipient of a $5,000 annual grant from the state to finance his education. However, the aid was withdrawn because of a state statute, which provided: \"Any student attending a state university who engages in disruptive campus activities will not be eligible for state aid. \"The group leader was married to a fellow student. However, in light of his involvement in defacing the statue and the loss of his state aid, his wife left him. At that time, the group leader received a tax bill for $150. This tax was imposed uniformly by the city on all individuals over 19 years of age, with the exception that full-time female college students were exempted. The tax notice stated that his wife, 22 years of age, qualified for the exemption, and there was no bill enclosed for her. Subsequently, the group leader moved in with his new girlfriend and began making arrangements to secure a divorce. However, the group leader was not able to obtain a divorce, since he had not fulfilled the 12-month residency requirement as imposed by state law. In an action by the group leader against the state challenging the constitutionality of the state statute regarding disruptive campus activities in order to regain his $5,000 annual grant, the court will most likely declare the statute",
+    "options": {
+      "A": "constitutional, because it promotes a compelling state interest.",
+      "B": "constitutional, because it is a proper exercise of state action designed to regulate the activities of state university students.",
+      "C": "unconstitutional, because it is vague and overbroad.",
+      "D": "unconstitutional, because it is discriminatory on its face."
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MMLU",
+      "id": "89b4b4f1-c703-4671-aaf3-3c673f3e3a2d",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 437
+    }
+  },
+  {
+    "question": "A 12-year-old girl and her friends were playing catch with a baseball in the middle of a field of grass in the park. Near the edge of the field, a woman was sitting in a beach chair and reading a book. The girl threw the ball too far, and it went over her friends' heads and flew toward the woman. Although the woman did not see the ball coming, it hit the straw hat that the woman was wearing, knocking it from her head. Although the woman was not touched by the ball, she was startled by the ball hitting her hat, and she fell from her chair and broke her arm. If the woman initiates a suit against the girl to recover damages for her broken arm, the woman will",
+    "options": {
+      "A": "recover for assault only.",
+      "B": "recover for battery only.",
+      "C": "recover for assault and battery.",
+      "D": "not recover."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "defee585-257a-4da3-bcfe-d5ce00cf7625",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 303
+    }
+  },
+  {
+    "question": "A salesman, who had worked 20 years for the same company, was suddenly terminated for no apparent reason. Thereafter, the salesman sued the company, alleging age discrimination. At trial, he wants to call an employee of the company as an adverse witness. The salesman seeks to have the employee testify that she was present at a company board meeting when the company's president allegedly said, \"Now, I'm sure that everyone agrees that the salesman is too old, and he really doesn't typify the image we want our employees to project. \" It is the common practice of the company to tape record all such board meetings. Moreover, it is customary for the company's secretary to transcribe the tapes following the board meetings. Upon objection by the company's attomey, the employee's proposed testimony will be held",
+    "options": {
+      "A": "admissible, because the employee was present during the board meeting.",
+      "B": "admissible, because the president's statement was an admission by a company representative.",
+      "C": "inadmissible, because the tape of the meeting is the best evidence.",
+      "D": "inadmissible, because the secretary's transcribed notes are the best evidence."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "9baf80de-e6c4-47bc-b026-969cbc0bf6b0",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1388
+    }
+  },
+  {
+    "question": "A woman prepared an accurate statement of her financial condition and submitted it with a loan application to a local bank with which she had done business for many years. Shortly thereafter, the woman's financial condition worsened significantly, but she failed to disclose this fact to the bank. Unaware of the woman's changed financial condition, the bank then agreed to lend money to the woman. The bank later learned of the woman's true financial condition. The bank refused to honor its promise to lend money to the woman, contending that the parties' contract was voidable at the bank's option because of the woman's misrepresentation. If the woman sues the bank for breach of contract, will the bank's misrepresentation defense likely succeed?",
+    "options": {
+      "A": "No, because the woman did not make any subsequent affirmative misrepresentations about her financial condition.",
+      "B": "No, because the woman's representations were accurate at the time she submitted the loan application to the bank.",
+      "C": "Yes, because the woman had an obligation to correct her previous representations about her financial condition in order to prevent them from being fraudulent.",
+      "D": "Yes, because the woman had an obligation to tell the bank about her changed financial condition due to the longstanding relationship of trust and confidence between them."
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MMLU",
+      "id": "cf467a70-647f-49fb-ad2b-3d1dddf7d52d",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1007
+    }
+  },
+  {
+    "question": "A state legislature has recently enacted an obscenity statute prohibiting \"the selling or offering for sale of any obscene printed or video materials. \" Following numerous complaints from a local citizens' group, the police entered an adult bookstore, examined materials on the shelves, and purchased magazines that depicted actual pictures of sexual intercourse. The owner was subsequently arrested and charged with violating the state obscenity law. At his trial, the owner's defense was that the sale of the materials complained of was constitutionally protected speech. Which of the following, if established, would be most helpful to the owner's defense?",
+    "options": {
+      "A": "The particular materials involved depicted normal, not deviant, sexual conduct.",
+      "B": "The particular materials involved consisted of serious scientific studies of human sexual urges.",
+      "C": "The police did not have a search warrant when they entered the bookstore to purchase the particular materials involved in this obscenity prosecution.",
+      "D": "85% of the citizens of the state believe that the sale of sexually explicit material does not contribute to antisocial sexual behavior."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "ea8b1399-c640-4cb5-befc-d4d631eb871e",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1309
+    }
+  },
+  {
+    "question": "A state has recently enacted a statute wherein aliens are forbidden from owning more than 10 acres of land within the state. Subsequent to the statute a resident alien enters into a contract to buy 50 acres of land located in the state. Assume that the statute empowers the state to bring an ejectment action against any alien who owns more than 10 acres of land. If the resident alien brings an action in federal court to enjoin the state from enforcing the statute against him, his best argument is",
+    "options": {
+      "A": "the statute violates the privileges or immunities clause of the Fourteenth Amendment.",
+      "B": "the statute violates the contract clause.",
+      "C": "the statute violates the commerce clause in that it interferes with land ownership.",
+      "D": "the statute violates the equal protection clause of the Fourteenth Amendment."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "3043be4e-fb5e-4564-bab8-91e0688f6ea8",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1367
+    }
+  },
+  {
+    "question": "The State of Florida is prosecuting a former police officer for extortion of money from prostitutes. One of the State's witnesses is Sally. Sally has an adult conviction for vehicular homicide. She was charged with driving a car in a reckless manner resulting in the death of her sister, a passenger in the car. Sally pleaded nolo contendere, was adjudicated guilty and received a suspended sentence although she could have received a sentence of state imprisonment up to 5 years. At trial, evidence of this conviction is",
+    "options": {
+      "A": "admissible to impeach Sally because vehicular homicide carries a maximum penalty in excess of 1 year.",
+      "B": "inadmissible to impeach Sally because she never admitted her guilt since she entered a plea of nolo contendere.",
+      "C": "inadmissible to impeach Sally because she received a suspended sentence.",
+      "D": "inadmissible to impeach Sally because she is only a witness and not the criminal defendant."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "228536b9-39e7-46d2-b985-469f113c2629",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1479
+    }
+  },
+  {
+    "question": "A retiree, advancing in age, realizes that he is no longer able to farm his 1,000 acres and therefore decides to sell some of the farmland in parcels of 250 acres. The president of a development company is interested in purchasing three of the four parcels. The president buys the three parcels from the retiree and begins formulating plans for constructing single- family dwelling units. The original deed between the retiree and the development company contains a provision expressly binding \"upon all subsequent grantees, their heirs, and assigns,\" stipulating that any further subdivisions by any such persons shall be restricted to minimum two-acre lots to be used for single-family dwelling units only. The development company immediately subdivided two of the parcels into lots of three, four, and five acres, and began construction of homes thereon. The original deed restrictions were enumerated within the special warranty deeds and were given to the purchasers of the homes in the new development, called tract I. Two years later, the president sold the remaining 250-acre parcel, which had not been included in the tract 1 subdivision plan, to a contractor. The deed between the president and the contractor included the same restriction as was in the original deed between the retiree and the president. The contractor, in turn, drafted a subdivision plan for the last 250-acre parcel, dividing it into one-acre lots. The contractor then commenced construction of single- family dwelling units in the new development, to be known as tract 2. There was no mention of the restriction for two-acre minimum lots in the deeds to the purchasers of the new homes in tract 2. In a subsequent action to enjoin the contractor from subdividing the parcel into one-acre lots by any of the present owners of lots in the tract 1 development, the most probable judicial determination would be",
+    "options": {
+      "A": "that the action should be dismissed because the owners lack standing to sue.",
+      "B": "that the action should be dismissed because there is no privity of estate between the owners of the lots in tract 1 and the contractor.",
+      "C": "that the action would be successful if tract 2 were considered by the court as part of a common development scheme.",
+      "D": "that the action would be successful because the restrictions in the original deed between the retiree and the president will be enforceable."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "67a660a8-d0f3-46ac-94fb-bfdd4dafd71c",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 756
+    }
+  },
+  {
+    "question": "An uncle owns his property in fee simple. The uncle executes and delivers a deed to the property with the following granting clause:\"To my nephew and my niece for the life of my nephew, then to my gardener. \"As a result of the grant, which of the following is the most accurate statement regarding the ownership rights of the property?",
+    "options": {
+      "A": "The nephew and niece are joint tenants in fee simple defeasible, and the gardener has an executory interest.",
+      "B": "The nephew has a life estate, the niece has a life estate pur autre vie, and the gardener has a vested remainder.",
+      "C": "The nephew and niece are tenants in common for the life of the first of them to die, the nephew and niece have contingent remainders in fee simple defeasible, and the gardener has an executory interest.",
+      "D": "The nephew has a life estate, the niece also has a life estate, and the gardener has a vested remainder."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "c90e202a-9d00-4934-8184-a93b915ffe62",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1404
+    }
+  },
+  {
+    "question": "In which one of the following situations would the defendant most likely be found guilty of felony murder?",
+    "options": {
+      "A": "A baseball fan traveled all night to the stadium, planning to purchase tickets from a scalper at the stadium. However, the fan arrived at the stadium after the game had started, and no tickets were available. He proceeded to sneak around the guard at the entrance gate and illegally entered the stadium. He watched the remainder of the game in the standing room only section. The fan became so enraged when the opposition took the lead in the ninth inning that he pulled out a gun from under his jacket and aimed it at the section of spectators in front of him. Before he could be subdued he had fired three shots, killing one person and severely injuring another.",
+      "B": "A customer was in a bank filling out a deposit slip when a robber entered. The robber went to the teller's window and quietly slipped a note to the teller, demanding everything in the cash drawer. The customer, who was unaware of the robbery taking place, went to the adjoining teller's window and made his deposit. Upon obtaining his receipt, the customer suddenly collapsed and died of a heart attack. When the robber saw this, he panicked and left the bank before the teller could comply with his demand.",
+      "C": "Two men planned to rob a luncheonette during the noontime rush. At 12:30 p. m. , as planned, one of the men entered the luncheonette and pointed a gun at the cashier, who handed over the money. The man left to meet the other man outside as he was standing guard as a lookout. As soon as the man ran out of the door, a police officer tried to grab him. The man evaded the officer for a brief moment. Thinking that the other man had double-crossed him and informed the police of their plans, he fatally shot the other man.",
+      "D": "A man and a woman had been feuding for years. In order to show him a thing or two, the woman decided to set fire to the man's house. Before dawn one morning, the woman went to the man's house and lit a match to gasoline she had poured at the man's front door. The house caught fire and quickly spread to the man's bedroom, where the man was able to leap out of the window without injury. A police officer who was driving by saw the woman running away one block from the man's house. The police officer pulled his car up to the woman to determine if she was involved in setting the fire. Upon seeing the officer, the woman starts to flee the scene. As she is running away, the woman pulled out a revolver and started shooting indiscriminately behind her. The police officer was struck by one of the shots and was killed."
+    },
+    "correct_answer": "D",
+    "metadata": {
+      "source": "MMLU",
+      "id": "c6252b30-53f9-4f22-b107-6106d278ce83",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 858
+    }
+  },
+  {
+    "question": "A land-development company was the owner of a400-acre tract of land in the Southwest. Over the course of time, the land-development company developed two residential subdivisions of the land, an eastern tract and a western tract, each of which contained 150 acres. These subdivisions were created by separate plats that made no reference to each other. The restrictions in the plats were, however, substantially identical. The plats and each deed provided that \"the use of the land herein conveyed is restricted to single-family dwellings only, and this covenant is intended to apply to each and every lot in the subdivision and runs with the land, binding every lot owner, his heirs, and assigns. \"After all but four lots in each subdivision had been sold by the land-development company, it sold 50 acres of the remaining 100 acres of land to a country club by a deed containing the following provisions:\"This deed is executed and accepted with the understanding that the property above described is hereby restricted so that(1) said property may be used as a country club, with a golf course, pool, tennis courts, club house, eating facilities, and other improvements appropriate to a country club. (2) said property may also be subdivided and platted as a residential subdivision similar to the eastern tract and the property shall thereafter be used in accordance with and conveyed subject to residential restrictions that shall conform with those restrictions in force against the eastern tract. (3) the restrictions herein contained shall be deemed covenants running with the land, and for breach of any covenant herein, the land-development company, its successors and assigns may, at its option, re-enter and terminate the estate conveyed hereby. \"At the time of this conveyance, the land- development company retained title to the remaining 50 acres in the original 400-acre tract. Thereafter, the land-development company developed an exclusive shopping center on 25 acres of the retained land. In February 2001, the land-development company sold the remaining eight residential lots in the eastern tract and the western tract. The next month, the land-development company executed the following instrument to the country club:\"The land-development company, for itself, its successors, and assigns, does hereby release,surrender and quitclaim all rights, title, or other property interest in that certain acres owned by the country club. \"At the time this instrument was executed, the country club had built a club house, golf course, and tennis courts on a portion of its land, and it had 25 acres of vacant land remaining. The country club wishes to commence construction of a new high- rise complex (containing a hotel, shopping mall, apartments, etc. ) on the 25 acres of vacant land it possesses. In an action by one of the homeowners in the western tract to enjoin construction of the complex, plaintiff will most likely",
+    "options": {
+      "A": "succeed, because the homeowner (or any other landowner in the eastern tract or the western tract) as assignee of the land development company could re-enter the land upon breach of condition subsequent.",
+      "B": "succeed, because a common development scheme had been established for the entire 400-acre tract, and the country club's proposed complex would constitute a non-conforming use.",
+      "C": "not succeed, because the land development company's instrument of March 2001 effectuated an abrogation of the deed restrictions on the country club's use of its property.",
+      "D": "not succeed, because in accordance with deed restriction (b), only a homeowner in the eastern tract would have standing to challenge the country club's proposed construction plan."
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MMLU",
+      "id": "dfbe592b-def0-409a-8e13-c3d4aa1126f0",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 245
+    }
+  },
+  {
+    "question": "For which of the following preliminary questions of fact will the trial court judge, not the jury, determine admissibility?",
+    "options": {
+      "A": "Whether the voice on a sound recording is that of the defendant.",
+      "B": "Whether defendant's copy of a document accurately reflects the contents of the original writing.",
+      "C": "Whether a conspiracy existed and defendant and declarant were members of the conspiracy before admitting an alleged declaration by a co-conspirator.",
+      "D": "A plaintiff sues on a lost writing, and the defendant contends that it was not lost because it never existed. The question to be decided is whether the original writing ever existed."
+    },
+    "correct_answer": "C",
+    "metadata": {
+      "source": "MMLU",
+      "id": "2b983728-971f-4640-86a4-63a61abd40f1",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1209
+    }
+  },
+  {
+    "question": "A defendant has been charged with making a false statement to a federally insured financial institution to secure a loan. At trial, the prosecutor calls the defendant's wife as a willing witness to testify that the defendant told her in confidence that he had misrepresented his assets on the loan application. The defendant objects to his wife's testimony. Should the testimony be admitted?",
+    "options": {
+      "A": "No, because even though the wife is a willing witness, the defendant has the right to exclude confidential marital communications in federal court.",
+      "B": "No, but only if the law of the state where the defendant and his wife reside recognizes a privilege for confidential marital communications.",
+      "C": "Yes, because in federal court the right not to testify belongs to the testifying spouse, and she is a willing witness.",
+      "D": "Yes, because while the adverse testimonial privilege is recognized in federal court, the marital communications privilege is not."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "a0ce2b75-080c-4d57-a1fc-2fa15200dc36",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 130
+    }
+  },
+  {
+    "question": "A city has enacted an anti-noise statute that \"prohibits amplification devices operated in public places which emit loud and raucous noises. \" The municipality passed the law to protect the quiet and tranquility of its residents and to avoid distractions to traffic. A high school student was driving in his car and listening to punk music on his car stereo system, which included a set of 12-inch subwoofers mounted in the rear. As the student drove past the high school, he turned up the volume to its highest level. A police car drove alongside the student and, hearing the loud and raucous music; the police officers arrested the student and charged him with violating the anti- noise statute. Before the student was brought to trial, the highest court in the state ruled the statute unconstitutional as vague and overbroad. As a result, the charges against the student were dropped, and his case was dismissed. Thereafter, the district attorney's office decided to prosecute the student for violating a state attempt statute. The attempt statute provided that legal impossibility was no defense. Thereupon, the student was charged with attempting to violate the anti-noise statute. At trial, the student took the stand to testifi on his own behalf. He testified that when he was arrested, he had purposely turned up the stereo to its highest level because his favorite song was playing. Will the student be found guilty of violating the attempt statute?",
+    "options": {
+      "A": "Yes, because he possessed the requisite intent.",
+      "B": "Yes, because dismissal of the initial charge was not a final judgment and, therefore, double jeopardy does not attach.",
+      "C": "No, because double jeopardy precludes prosecution for attempt after the initial prosecution was dismissed.",
+      "D": "No, because a defendant cannot be retried for attempted commission of a crime that has been ruled unconstitutional by a state's highest court."
+    },
+    "correct_answer": "A",
+    "metadata": {
+      "source": "MMLU",
+      "id": "ee1bdbfe-d150-4e8a-ba82-d3f7b93cd498",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 508
+    }
+  },
+  {
+    "question": "A federal statute makes it a crime for anyone to \"knowingly\" use, transfer, acquire, alter, or possess food stamps in any manner not authorized by statute or federal regulations. A restaurant owner purchased food stamps from an undercover federal agent several times for a price below face value. At trial, the judge refused to charge the jury that this was a specific intent crime requiring proof that the defendant knew that he was acting illegally. The government urged that no mens rea, or \"evil-meaning mind\" had to be proved. The court simply told the jury that \"knowingly\" means that the Defendant realized what he was doing, and did not act through ignorance, mistake, or accident. The owner was convicted and appealed. What will the federal appellate court likely decide regarding the lower court's interpretation of the criminal intent required under the statute?",
+    "options": {
+      "A": "Some statutes are written without the need to prove any particular mens rea, and this statute appears to be one of them, making the court's instructions appropriate.",
+      "B": "Where all that is available regarding intent is the use of the word \"knowingly\", the prosecution must at least prove that the defendant knew his conduct to be unauthorized by statute or regulations.",
+      "C": "This is a strict liability crime that requires no proof of criminal knowledge or specific criminal intent.",
+      "D": "The prosecution must prove that the defendant had specific knowledge of the precise provisions of the federal food stamp law and the specific actions that were prohibited."
+    },
+    "correct_answer": "B",
+    "metadata": {
+      "source": "MMLU",
+      "id": "62ea0e9a-5ef7-4a47-ae41-7b23f620d7b5",
+      "choice_type": "single",
+      "subject_name": "professional_law",
+      "topic_name": "",
+      "original_index": 1129
+    }
+  }
+]
