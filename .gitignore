@@ -1,4 +1,4 @@
-# Environment variables (never commit secrets)
+# Environment variables
 .env
 
 # Python
@@ -26,19 +26,9 @@ wheels/
 .installed.cfg
 *.egg
 
-# Outputs (ignore by default; track result dirs below)
-outputs/*
-!outputs/results_llama/
-!outputs/results_mistral/
-!outputs/results_gemma/
-!outputs/results_qwen/
-
 *.json
 !dataset/**/*.json
-!outputs/results_llama/*.json
-!outputs/results_mistral/*.json
-!outputs/results_gemma/*.json
-!outputs/results_qwen/*.json
+!outputs/**/*.json
 
 # IDE
 .vscode/
