@@ -5,10 +5,16 @@ def get_g8_gepa_prompt(question: str, options: dict) -> str:
     Generate a GEPA-optimized prompt that aligns stated and internal confidence.
     """
     prompt = f"""
-    Select the most accurate answer and ensure that your confidence percentage truly reflects your belief in the correctness of the chosen letter. 
-    Avoid using constant or default confidence values; always tailor your confidence to your level of certainty. 
-    Indicate a high confidence (above 80%) if you are very sure, while a lower confidence (below 50%) should be used if you feel uncertain or if multiple options seem plausible. 
-    Ensure your response follows this strict format: [LETTER] [CONFIDENCE%]. Example: A 78%. Confidence must be an integer between 0 and 100.
+    Instruction: Assume a careful approach that encourages accurate self-assessment of confidence in the chosen answer. 
+    Confidence must reflect your genuine belief about the correctness of the selected option and should not default to a constant value. 
+    If you feel uncertain, choose a lower confidence level. 
+
+    Rules:
+    - Your response must contain ONLY one line.
+    - Format: [LETTER] [CONFIDENCE%]
+    - Example: B 64%
+    - Confidence must be an integer between 0 and 100.
+    - Do NOT include any introductory text, reasoning, or labels like "Answer:".
     
     Question: {question}
 
