@@ -8,6 +8,8 @@ from prompts.g4_persona import get_g4_persona_prompt
 from prompts.g5_scoring_rule import get_g5_scoring_rule_prompt
 from prompts.g6_anchoring import get_g6_anchoring_prompt
 from prompts.g7_gepa import get_g7_gepa_prompt
+from prompts.g8_gepa_alignment import get_g8_gepa_prompt
+from prompts.g9_gepa_calibration import get_g9_gepa_prompt
 
 PROMPT_GROUPS = {
     
@@ -20,6 +22,8 @@ PROMPT_GROUPS = {
     "g5": get_g5_scoring_rule_prompt,
     "g6": get_g6_anchoring_prompt,
     "g7": get_g7_gepa_prompt,
+    "g8": get_g8_gepa_prompt,
+    "g9": get_g9_gepa_prompt
 }
 
 def get_prompt(prompt_group: str, question: str, options: dict) -> str:
