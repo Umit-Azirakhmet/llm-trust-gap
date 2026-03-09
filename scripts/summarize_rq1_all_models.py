@@ -32,10 +32,10 @@ GROUP_STRATEGY = {
     "g4": "Skeptical Auditor",
     "g5": "Scoring Rule",
     "g6": "Anchoring",
+    "g7": "Group 7",
     "g8": "Group 8",
-    "g9": "Group 9",
 }
-ALL_GROUPS = ["g0", "g1", "g2", "g3", "g4", "g5", "g6", "g8", "g9"]
+ALL_GROUPS = ["g0", "g1", "g2", "g3", "g4", "g5", "g6", "g7", "g8"]
 CER_THRESHOLD = 80
 
 # (model key, display name, results dir relative to ROOT)

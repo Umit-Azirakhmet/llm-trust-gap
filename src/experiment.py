@@ -218,7 +218,7 @@ def main():
         "--prompt-group",
         type=str,
         required=True,
-        choices=["g0", "g1", "g2", "g3", "g4", "g5", "g6", "g7", "g8", "g9"],
+        choices=["g0", "g1", "g2", "g3", "g4", "g5", "g6", "g7", "g8"],
         help="Prompt group to use"
     )
     parser.add_argument(

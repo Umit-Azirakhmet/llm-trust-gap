@@ -22,12 +22,12 @@ GROUP_STRATEGY = {
     "g4": "Skeptical Auditor",
     "g5": "Scoring Rule",
     "g6": "Anchoring",
+    "g7": "Group 7",
     "g8": "Group 8",
-    "g9": "Group 9",
 }
 
-# All prompt groups (including g8, g9). Order for tables and iteration.
-ALL_GROUPS = ["g0", "g1", "g2", "g3", "g4", "g5", "g6", "g8", "g9"]
+# All prompt groups (including g7, g8). Order for tables and iteration.
+ALL_GROUPS = ["g0", "g1", "g2", "g3", "g4", "g5", "g6", "g7", "g8"]
 
 # Confident Error Rate: threshold for "confident" (V >= this %)
 CER_THRESHOLD = 80

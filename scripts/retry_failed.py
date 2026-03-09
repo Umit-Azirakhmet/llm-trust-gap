@@ -32,7 +32,7 @@ sys.path.insert(0, str(ROOT))
 from src.experiment import ExperimentRunner
 from src.utils import load_json, save_json
 
-PROMPT_GROUPS = ("g0", "g1", "g2", "g3", "g4", "g5", "g6", "g7")
+PROMPT_GROUPS = ("g0", "g1", "g2", "g3", "g4", "g5", "g6", "g7", "g8")
 DEFAULT_RESULTS_DIRS = [
     "outputs/results_llama",
     "outputs/results_mistral",
@@ -54,7 +54,7 @@ def parse_result_filename(stem: str) -> dict | None:
     """
     Parse result filename stem to get model, prompt_group, dataset.
     Expects format: {model}_{prompt_group}_{dataset}_{timestamp}.
-    Timestamp is YYYYMMDD_HHMMSS (last two parts). Prompt group is one of g0..g7.
+    Timestamp is YYYYMMDD_HHMMSS (last two parts). Prompt group is one of g0..g8.
     """
     parts = stem.split("_")
     if len(parts) < 4:
@@ -63,7 +63,7 @@ def parse_result_filename(stem: str) -> dict | None:
     if not (parts[-1].isdigit() and parts[-2].isdigit()):
         return None
     rest = parts[:-2]
-    # Find prompt_group (g0..g7)
+    # Find prompt_group (g0..g8)
     for i, p in enumerate(rest):
         if p in PROMPT_GROUPS:
             model = "_".join(rest[:i])

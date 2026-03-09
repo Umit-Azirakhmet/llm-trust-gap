@@ -1,6 +1,6 @@
-"""Group 8: GEPA-optimized prompt for alignment between stated and internal confidence."""
+"""Group 7: GEPA-optimized prompt for alignment between stated and internal confidence."""
 
-def get_g8_gepa_prompt(question: str, options: dict) -> str:
+def get_g7_gepa_prompt(question: str, options: dict) -> str:
     """
     Generate a GEPA-optimized prompt that aligns stated and internal confidence.
     """
@@ -28,4 +28,3 @@ def get_g8_gepa_prompt(question: str, options: dict) -> str:
     """
     
     return prompt
-

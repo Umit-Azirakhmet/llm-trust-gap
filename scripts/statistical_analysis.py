@@ -19,7 +19,7 @@ MODEL_SIZE = {'llama-3.1-8b': 8, 'gemma-3-4b': 4, 'mistral-small': 24, 'qwen-3-8
 GROUP_LABEL = {
     'g0': 'Control', 'g1': 'Evidence-First', 'g2': 'Counterfactual',
     'g3': 'Inoculation', 'g4': 'Persona', 'g5': 'Scoring-Rule',
-    'g6': 'Anchoring', 'g8': 'GEPA-align', 'g9': 'GEPA-calib',
+    'g6': 'Anchoring', 'g7': 'GEPA-align', 'g8': 'GEPA-calib',
 }
 
 # Visualization Themes

@@ -1,6 +1,6 @@
-"""Group 9: GEPA-optimized prompt for calibration between confidence and correctness."""
+"""Group 8: GEPA-optimized prompt for calibration between confidence and correctness."""
 
-def get_g9_gepa_prompt(question: str, options: dict) -> str:
+def get_g8_gepa_prompt(question: str, options: dict) -> str:
     """
     Generate a GEPA-optimized prompt that maximize calibration.
     """
@@ -30,4 +30,3 @@ def get_g9_gepa_prompt(question: str, options: dict) -> str:
     """
     
     return prompt
-

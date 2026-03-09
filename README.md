@@ -12,7 +12,7 @@ This research evaluates whether structural prompting (evidence-first, counterfac
 flowchart TD
     A[Datasets<br/>MMLU, MedMCQA, TriviaQA, etc.] --> B[Experiment Runner]
     C[Config Files<br/>models.yaml, prompts.yaml] --> B
-    D[Prompt Groups<br/>g0: Control<br/>g1: Evidence-First<br/>g2: Counterfactual<br/>g3-g7: Advanced] --> B
+    D[Prompt Groups<br/>g0: Control<br/>g1: Evidence-First<br/>g2: Counterfactual<br/>g3-g8: Advanced] --> B
     
     B --> E[Prompt Generator<br/>Combines question + options<br/>with prompt template]
     E --> F[TogetherAI API Client<br/>Generates response with logprobs]
@@ -131,7 +131,7 @@ python src/experiment.py \
 - `--model`: Model identifier (see `config/models.yaml` for available models)
   - Options: `llama-3.1-8b`, `llama-3.1-70b`, `mistral-small`, `gemma-3-4b`, `qwen-3-80b`, `deepseek-v3.1`
 - `--prompt-group`: Prompt group to use
-  - Options: `g0` , `g1`, `g2`, `g3`, `g4`, `g5`, `g6`, `g7`
+  - Options: `g0` , `g1`, `g2`, `g3`, `g4`, `g5`, `g6`, `g7`, `g8`
 - `--dataset`: Path to JSON dataset file
 - `--output-dir`: Directory to save output JSON file (default: `outputs/results`)
 
