@@ -1,0 +1,202 @@
+# Null Values & Model Response Case Study
+# Generated: 2026-03-10T21:34:15.904176Z
+# Lists entries with missing V or P and example raw model outputs.
+
+======================================================================
+
+## Med dataset (medmcqa_1000)
+
+
+# Null-Value Case Study — Dataset = medmcqa_1000
+
+We list groups where verbal confidence V or internal probability P is missing,
+along with example raw model outputs for inspection.
+
+## Llama 3.1 8B (llama-3.1-8b)
+
+### Group G0 — file `llama-3.1-8b_g0_medmcqa_1000_20260301_163203.json`
+- Total items with null V or P: 28  (V null only: 0, P null only: 0, both null: 28)
+- Example rows (up to 5):
+  - question_id=34, V=None, P=None, is_correct=False, output=`D) 80%`
+  - question_id=36, V=None, P=None, is_correct=False, output=`D) 80%`
+  - question_id=105, V=None, P=None, is_correct=False, output=`C) 80%`
+  - question_id=127, V=None, P=None, is_correct=False, output=`D) 80%`
+  - question_id=181, V=None, P=None, is_correct=False, output=`C) 80%`
+
+### Group G3 — file `llama-3.1-8b_g3_medmcqa_1000_20260301_171236.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=260, V=None, P=None, is_correct=False, output=`L1 80%`
+
+### Group G7 — file `llama-3.1-8b_g7_medmcqa_1000_20260304_001940.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=655, V=None, P=None, is_correct=False, output=`A 40-55% 60%`
+
+
+## Mistral Small (mistral-small)
+
+### Group G0 — file `mistral-small_g0_medmcqa_1000_20260301_192257.json`
+- Total items with null V or P: 22  (V null only: 0, P null only: 0, both null: 22)
+- Example rows (up to 5):
+  - question_id=13, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=22, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=177, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=194, V=None, P=None, is_correct=False, output=`I don't have the information to answer this question`
+  - question_id=218, V=None, P=None, is_correct=False, output=`I don't have the information to answer this question`
+
+### Group G1 — file `mistral-small_g1_medmcqa_1000_20260301_193113.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=773, V=None, P=None, is_correct=False, output=`I don't have the information to answer this question`
+
+### Group G3 — file `mistral-small_g3_medmcqa_1000_20260301_195557.json`
+- Total items with null V or P: 10  (V null only: 0, P null only: 0, both null: 10)
+- Example rows (up to 5):
+  - question_id=218, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=262, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=267, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=386, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=407, V=None, P=None, is_correct=False, output=`I don't have the information.`
+
+### Group G5 — file `mistral-small_g5_medmcqa_1000_20260301_201718.json`
+- Total items with null V or P: 7  (V null only: 0, P null only: 0, both null: 7)
+- Example rows (up to 5):
+  - question_id=262, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=267, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=412, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=429, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=571, V=None, P=None, is_correct=False, output=`I don't have the information.`
+
+### Group G7 — file `mistral-small_g7_medmcqa_1000_20260304_003009.json`
+- Total items with null V or P: 36  (V null only: 0, P null only: 0, both null: 36)
+- Example rows (up to 5):
+  - question_id=0, V=None, P=None, is_correct=False, output=``
+  - question_id=2, V=None, P=None, is_correct=False, output=``
+  - question_id=4, V=None, P=None, is_correct=False, output=``
+  - question_id=5, V=None, P=None, is_correct=False, output=``
+  - question_id=6, V=None, P=None, is_correct=False, output=``
+
+### Group G8 — file `mistral-small_g8_medmcqa_1000_20260303_205020.json`
+- Total items with null V or P: 5  (V null only: 0, P null only: 0, both null: 5)
+- Example rows (up to 5):
+  - question_id=396, V=None, P=None, is_correct=False, output=`I don't have the information to answer this question`
+  - question_id=407, V=None, P=None, is_correct=False, output=`I don't have the information.`
+  - question_id=773, V=None, P=None, is_correct=False, output=`I don't have the information to answer this question`
+  - question_id=877, V=None, P=None, is_correct=False, output=`None of the options are correct.`
+  - question_id=926, V=None, P=None, is_correct=False, output=``
+
+
+## Gemma 3N 4B (gemma-3-4b)
+
+### Group G1 — file `gemma-3-4b_g1_medmcqa_1000_20260301_204327.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=582, V=None, P=None, is_correct=False, output=`A 75 year old chronic smoker who is`
+
+### Group G2 — file `gemma-3-4b_g2_medmcqa_1000_20260301_205259.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=582, V=None, P=None, is_correct=False, output=`A 75 year old chronic smoker who is`
+
+### Group G3 — file `gemma-3-4b_g3_medmcqa_1000_20260301_210237.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=582, V=None, P=None, is_correct=False, output=`A 75 year old chronic smoker who is`
+
+### Group G5 — file `gemma-3-4b_g5_medmcqa_1000_20260301_211846.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=582, V=None, P=None, is_correct=False, output=`A 75 year old chronic smoker who is`
+
+
+## Qwen3 80B (qwen-3-80b)
+
+### Group G0 — file `qwen-3-80b_g0_medmcqa_1000_20260301_213723.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=877, V=None, P=None, is_correct=False, output=`None of the options are relevant to lacrimal`
+
+### Group G1 — file `qwen-3-80b_g1_medmcqa_1000_20260301_214447.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=877, V=None, P=None, is_correct=False, output=`None of the options are relevant to the lacr`
+
+### Group G2 — file `qwen-3-80b_g2_medmcqa_1000_20260301_215226.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=877, V=None, P=None, is_correct=False, output=`None of the options are relevant to lacrimal`
+
+### Group G3 — file `qwen-3-80b_g3_medmcqa_1000_20260301_220014.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=877, V=None, P=None, is_correct=False, output=`None of the options are relevant to lacrimal`
+
+### Group G5 — file `qwen-3-80b_g5_medmcqa_1000_20260301_221543.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=877, V=None, P=None, is_correct=False, output=`None of the options are correct, but since I`
+
+### Group G7 — file `qwen-3-80b_g7_medmcqa_1000_20260304_004652.json`
+- Total items with null V or P: 2  (V null only: 0, P null only: 0, both null: 2)
+- Example rows (up to 5):
+  - question_id=630, V=None, P=None, is_correct=False, output=`None of the listed options are entirely safe, but`
+  - question_id=877, V=None, P=None, is_correct=False, output=`None of the provided options are relevant to the question`
+
+### Group G8 — file `qwen-3-80b_g8_medmcqa_1000_20260303_211950.json`
+- Total items with null V or P: 1  (V null only: 0, P null only: 0, both null: 1)
+- Example rows (up to 5):
+  - question_id=877, V=None, P=None, is_correct=False, output=`None of the options are relevant to the question about`
+
+
+
+======================================================================
+
+## Law dataset (mmlu_professional_law_1000)
+
+
+# Null-Value Case Study — Dataset = mmlu_professional_law_1000
+
+We list groups where verbal confidence V or internal probability P is missing,
+along with example raw model outputs for inspection.
+
+## Llama 3.1 8B (llama-3.1-8b)
+
+### Group G0 — file `llama-3.1-8b_g0_mmlu_professional_law_1000_20260226_150407.json`
+- Total items with null V or P: 2  (V null only: 0, P null only: 0, both null: 2)
+- Example rows (up to 5):
+  - question_id=340, V=None, P=None, is_correct=False, output=`D) 100%`
+  - question_id=690, V=None, P=None, is_correct=False, output=`D) 80%`
+
+### Group G3 — file `llama-3.1-8b_g3_mmlu_professional_law_1000_20260226_152943.json`
+- Total items with null V or P: 2  (V null only: 0, P null only: 0, both null: 2)
+- Example rows (up to 5):
+  - question_id=645, V=None, P=None, is_correct=False, output=`D) 80%`
+  - question_id=981, V=None, P=None, is_correct=False, output=`C) 80%`
+
+### Group G6 — file `llama-3.1-8b_g6_mmlu_professional_law_1000_20260226_155052.json`
+- Total items with null V or P: 2  (V null only: 0, P null only: 0, both null: 2)
+- Example rows (up to 5):
+  - question_id=318, V=None, P=None, is_correct=False, output=`D) 90%`
+  - question_id=642, V=None, P=None, is_correct=False, output=`D) 90%`
+
+
+## Mistral Small (mistral-small)
+
+### Group G3 — file `mistral-small_g3_mmlu_professional_law_1000_20260227_010010.json`
+- Total items with null V or P: 2  (V null only: 0, P null only: 0, both null: 2)
+- Example rows (up to 5):
+  - question_id=581, V=None, P=None, is_correct=False, output=``
+  - question_id=595, V=None, P=None, is_correct=False, output=``
+
+
+## Gemma 3N 4B (gemma-3-4b)
+
+### Group G1 — file `gemma-3-4b_g1_mmlu_professional_law_1000_20260226_232049.json`
+- Total items with null V or P: 2  (V null only: 0, P null only: 0, both null: 2)
+- Example rows (up to 5):
+  - question_id=314, V=None, P=None, is_correct=False, output=`B 95%  The relevant facts are`
+  - question_id=560, V=None, P=None, is_correct=False, output=`B 95%   The covenant to`
+
+
+
